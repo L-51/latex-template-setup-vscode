@@ -44,3 +44,6 @@ Un tutorial junto con una plantilla de **LaTeX para Visual Studio Code (Linux)**
 ✅ Guía de configuración **paso a paso**  
 ✅ Compatible con **sistemas Linux**
 
+<!--==Licence============================================================================================-->
+## Licence
+This project is licensed under the [MIT License](./LICENSE)
