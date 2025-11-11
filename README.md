@@ -5,5 +5,6 @@
 ![VSCode](https://img.shields.io/badge/Editor-VSCode-blue?logo=visual-studio-code)
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](README.en.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
-
+> LaTeX template and setup tutorial for Visual Studio Code (Linux).
+> Plantilla y tutorial de configuración de LaTeX en VS Code para Linux.
 ---
