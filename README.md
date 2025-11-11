@@ -18,3 +18,10 @@ A tutorial of how to set up and a ready-to-use **LaTeX setup for Visual Studio C
 **Español**  
 Un tutorial junto con una plantilla de **LaTeX para Visual Studio Code (Linux)** lista para usar, con estructura modular, compilación local y configuración automática. Pensada para estudiantes y profesionales que trabajan con LaTeX desde VS Code.
 
+<!--==Languages==========================================================================================-->
+## Available Languages
+
+| Language | File | Description |
+|-----------|-------|-------------|
+| 🇬🇧 English | [README.en.md](README.en.md) | Full English documentation |
+| 🇪🇸 Español | [README.es.md](README.es.md) | Documentación completa en español |
