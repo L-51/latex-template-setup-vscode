@@ -8,7 +8,7 @@ Las contribuciones son bienvenidas, mejora de la estructura de la plantilla, añ
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork the repository" />
 
 ## 1. Haz un fork del repositorio
-Crea un fork del repositorio, dandole al botón que se encuentra en la zona superior izquierda de la página. Esto creará una copia del repositorio en tu cuenta
+Crea un fork del repositorio, dándole al botón que se encuentra en la zona superior izquierda de la página. Esto creará una copia del repositorio en tu cuenta
 
 ## 2. Clona el repositorio bifurcado(forked)
 
@@ -24,7 +24,7 @@ Si es para la opción `ssh` aquí le dejo un [tutorial](https://docs.github.com/
 ```bash
   git clone https://github.com/<your-username>/latex-vscode-template.git
 ```
-Para navegar y acceder al respositorio clonado, simplementes realice el siguiente comando:
+Para navegar y acceder al repositorio clonado, simplementes realiza el siguiente comando:
 ```bash
   cd latex-vscode-template
 ```
@@ -48,7 +48,7 @@ Por ejemplo:
 ```bash
   git switch -c feature/mejorar-estructura
 ```
-## 4. Realizas los cambios
+## 4. Realiza los cambios
 Modifica los archivos necesarios.  
 Asegurando que:
 - La plantilla sigue compilando correctamente
@@ -76,10 +76,10 @@ Añade en la descripción de `pull request` lo siguiente:
 La contribución será revisado lo más pronto posible
 
 # Estilo del código y reglas del proyecto
-Respecte las siguientes normas para la contribución:
+Respeta las siguientes normas para la contribución:
 - Mantener una estructura modular para LaTex
 - Mantener el proyecto compatible con **VS Code**
 - Escribir la documentación de forma clara y un estilo conciso
 - Para cambios no triviales, actualiza en **ambas** versiones de README, Inglés y Español
 # ❤️ ¡Gracias!
-Cualquier contribución sea grande o pequeñas mejorará este proyecto
+Cualquier contribución sea grande o pequeña mejorará este proyecto
