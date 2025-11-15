@@ -1,37 +1,56 @@
-# Plantilla de organización de LaTeX en Visual Studio Code (Linux)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
-![VSCode](https://img.shields.io/badge/Editor-VSCode-blue?logo=visual-studio-code)
-> Plantilla lista para usar en **VS Code (Linux)** con configuración automática, organización modular y soporte completo de LaTeX Workshop.
-## Tutorial: Configuración paso a paso
-Plantilla de LaTeX lista para usar en **Visual Studio Code (VSC)** en Linux.
+# Configuración y plantilla modular de LaTeX en Visual Studio Code
 
-Incluye configuración básica, instalación de extensiones, compilación automática y organización de proyecto en carpetas.
+<!--==Introducción==========================================================================================-->
+## Introducción
+Este tutorial te eseña como configurar paso a paso **Visual Studio Code** para usar LaTeX junto con una plantilla de **estructura modular** pensada para poder trabajar cómodamente, con:
+- configuración automática
+- compilación local (offline)
+- organización del proyecto por carpetas
+- compatibilidad completa con LaTeX Workshop
+Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera escribir en LaTeX desde VS Code de forma rápida y ordenada.
 
-Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX desde VS Code de forma rápida y ordenada.
-
-<!--========================================================================================================-->
+<!--==Tabla de contenido====================================================================================-->
 ## Tabla de contenido
-- [Configuración básica](#configuración-básica)
+- [Inicio rápido](#inicio-rápido) 
+- [Instalación y configuración de LaTeX en VS Code](#instalación-y-configuración-de-latex-en-vs-code-linux)
 - [Estructura de la plantilla](#estructura-de-la-plantilla)
-- [Tips (Consejos)](#tipsconsejos)
-- [Conectar con el repositorio Git](#conectar-con-el-repositorio-git)
+- [Consejos básicos](#consejos-básicos)
+- [Opciones avanzadas(opcional)](#opciones-avanzadas)
+- [Conectar con Git y GitHub](#conectar-con-git-y-github)
 - [Organización del proyecto](#organización-del-proyecto-hay-texto-de-ejemplo-en-los-ficheros)
 - [Recomendación final](#️recomendación-final)
-- [Colaboración](#colaboración)
+- [Contribución](#contribucion)
 - [Recursos adicionales](#recursos-adicionales)
 
-<!--========================================================================================================-->
-## Configuración básica
-- **Instalar Visual Studio Code** <br>
-  Accede a [Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux) y seguir los pasos
-  
-- **Instalar extensiones en VSC** <br>
-  `Ctrl + Shift + X` Accedes a extensiones y seleccionas **LaTex Workshop** de James Yu:
-  <p> 
-    <img src=".readme/Extension.png" alt="Extension" width="200"/> 
-    <p><em>Incono de extensión</em></p> 
-  </p> 
+<!--==Inicio Rápido=========================================================================================-->
+## Inicio Rápido
+Si quieres usar la plantilla de inmediato, sin leer todo el tutorial:
+1. **Clona el repositorio**
+   ```bash
+     git clone https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE.git
+   ```
+   o con SSH:
+   ```bash
+     git clone git@github.com:L-51/Plantilla-LaTex-para-VSCode.git
+   ```
+2. Abre la carpeta en Visual Studio Code
+3. Instala la extensión **LaTeX Workshop** (si no la tienes)
+4. Abre `main.tex`
+5. Pulsa `Ctrl + S` para compilar
+6. Edita las secciones en `template/secciones/`
+> Y... ¡Listo! Ya estás trabajando con la plantilla
+
+<!--==Instalación y configuración de LaTeX en VS Code (Linux)===============================================-->
+## Instalación y configuración de LaTeX en VS Code (Linux)
+Ante de usar la plantilla, asegúrate de tener:
+### 1. Visual Studio Code instalado
+Sigue las instrucciones oficiales:
+[Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux)
+
+<img align="right" width="300" src="./.github/assets/Extension.png" alt="Extension" />
+### 2. Extensión LaTeX Workshop
+Instálala desde VS Code:
+`Ctrl + Shift + X` -> busca LaTeX Workshop -> Instalar
   <p> 
     <img src=".readme/LaTex_Workshop.png" alt="LaTex Workshop" width="600"/> 
     <p><em>Resultado de la búsqueda LaTex Workshop</em></p> 
@@ -268,5 +287,6 @@ Puedes consultar el apartado de [**Recursos adicionales**](#recursos-adicionales
 - [Plantillas realizadas por LosDelGIIM](https://github.com/LosDelDGIIM/LosDelDGIIM.github.io/tree/main/subjects/_plantillas)
 - [Tutorial para realizar un **pull request** en Github](https://github.blog/developer-skills/github/beginners-guide-to-github-creating-a-pull-request/)
 - [Badges para readme](https://github.com/inttter/md-badges)
----
-> Si te resulta útil esta plantilla, ¡no olvides dejar una ⭐ en el repositorio!
+- [Generar y configurar SSH key para tu cuenta de GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+- [Cómo realizar tu primera contribución](https://github.com/firstcontributions/first-contributions)
+- [Enlaces utiles sobre Git](https://github.com/firstcontributions/first-contributions/blob/main/docs/additional-material/git_workflow_scenarios/Useful-links-for-further-learning.md)
