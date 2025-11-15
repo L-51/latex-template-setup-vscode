@@ -13,12 +13,10 @@
 ## Introduction/Introducción
 
 **English**  
-A tutorial of how to set up and a ready-to-use **LaTeX setup for Visual Studio Code (Linux)** with modular project structure, automatic build configuration, and local compilation support.  
-Perfect for students and professionals working with LaTeX in VS Code.
+A tutorial of how to set up and a ready-to-use **LaTeX setup for Visual Studio Code (Linux)** with modular project structure, automatic build configuration, and local compilation support. Perfect for students and professionals working with LaTeX in VS Code.
 
 **Español**  
-Un tutorial junto con una plantilla de **LaTeX para Visual Studio Code (Linux)** lista para usar, con estructura modular, compilación local y configuración automática.   
-Pensada para estudiantes y profesionales que trabajan con LaTeX desde VS Code.
+Un tutorial junto con una plantilla de **LaTeX para Visual Studio Code (Linux)** lista para usar, con estructura modular, compilación local y configuración automática. Pensada para estudiantes y profesionales que trabajan con LaTeX desde VS Code.
 
 <!--==Languages==========================================================================================-->
 ## Available Languages
