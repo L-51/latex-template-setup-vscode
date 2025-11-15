@@ -44,7 +44,7 @@ Es recomendable usar prefijos para aclarar el propósito de la nueva rama:
 - `docs` -> para cambios de documentación
 Por ejemplo:
 ```bash
-  git checkout -b feature/mejorar-estructura
+  git switch -c feature/mejorar-estructura
 ```
 ## 4. Realizas los cambios
 Modifica los archivos necesarios.  
