@@ -46,13 +46,13 @@ Un tutorial junto con una plantilla de **LaTeX para Visual Studio Code (Linux)**
 
 <!--==Contribution=======================================================================================-->
 ## Contribution / Contribución
-**English**
+**English**  
 Contributions are welcome!  
-Please read the [CONTRIBUTING.md](.github/CONTRIBUTING.md) guidelines before submitting a pull request.
+Please read the [contribution guidelines](.github/CONTRIBUTING.md) before submitting a pull request.
 
-**Español**
-¡Las contribuciones son bienvenidas!
-Por favor, lean [CONTRIBUTING.md](.github/CONTRIBUTING.md) antes de enviar un pull request.
+**Español**  
+¡Las contribuciones son bienvenidas!  
+Por favor, lean las [pautas de contribución](.github/CONTRIBUTING.es.md) antes de enviar un pull request.
 
 
 <!--==License============================================================================================-->
