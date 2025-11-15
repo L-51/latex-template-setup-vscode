@@ -30,24 +30,35 @@ Un tutorial junto con una plantilla de **LaTeX para Visual Studio Code (Linux)**
 
 ## Features / Características
 
-### Englishú
+**English**
 ✅ Preconfigured for **LaTeX Workshop**  
 ✅ Works fully **offline (local compilation)**  
 ✅ Modular folder structure (config, sections, bibliography, etc.)  
 ✅ Step-by-step setup guide  
 ✅ Compatible with **Linux systems**
 
-### Español
+**Español**
 ✅ Preconfigurada para **LaTeX Workshop**  
 ✅ Funciona completamente **sin conexión (compilación local)**  
 ✅ Estructura de carpetas modular (config, secciones, bibliografía, etc.)  
 ✅ Guía de configuración **paso a paso**  
 ✅ Compatible con **sistemas Linux**
 <!--==Contribution=======================================================================================-->
-## Contribution
+## Contribution / Contribución
+**English**
+Contributions are welcome!  
+Please read the [CONTRIBUTING.md](.github/CONTRIBUTING.md) guidelines before submitting a pull request.
+
+**Español**
+¡Contribuciones son bienvenidos!
+Por favor, lean [CONTRIBUTING.md](.github/CONTRIBUTING.md) ante de enviar un pull request.
 
 
 <!--==Licence============================================================================================-->
-## Licence
+## Licence / Licencia
 This project is licensed under the [MIT License](./LICENSE)  
 Este proyecto está licenciado bajo la [Licencia MIT](./LICENSE)
+
+---
+> If you feel this repository useful, don't forget to leave a ⭐!  
+> Si te resulta útil este repositorio, ¡no olvides dejar una ⭐!
