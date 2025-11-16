@@ -251,18 +251,9 @@ Si tienes **poco** manejo a la hora de usar GitHub para trabajar con varios usua
 ### Configuración de salida de compilación
 Vaya a [settings](#settings) y escriba en la barra de búsqueda `Latex: Out Dir`, y cambie la ruta de salida donde quieras guardar archivos cuales son resultados de la compilación:
 
-<table>
-<tr>
-<td align="center">
+<img src="./.github/assets/readme/advance_advice/OutDir.png" alt="OutDir" width="370"/>
 
-<img src="./.github/assets/readme/advance_advice/OutDir.png" alt="OutDir" width="370"/><br>
-<em>Se usó <a href="https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/build">./build</a> como ejemplo de salida</em>
-
-</td>
-</tr>
-</table>
-
-<img align="right" width="300" src="./.github/assets/readme/advance_advice/autoBuild.png" alt="Auto Build">
+<img align="right" width="330" src="./.github/assets/readme/advance_advice/autoBuild.png" alt="Auto Build">
 
 ### autoBuild y autoClean
 Accediendo a [settings](#settings), y buscar `LaTex Auto Build Run` le aparecerá un apartado donde se podrá elegir la opción de compilación:
@@ -270,7 +261,7 @@ Accediendo a [settings](#settings), y buscar `LaTex Auto Build Run` le aparecer�
   - `onSave` compila solo cuando **guardas el archivo** (`Ctrl+S`), más recomendable para tener un mejor control de la compilación
   - `onFileChange` compila automáticamente cada vez que **detecta un cambio en el archivo** (aunque no lo guardes)
 
-<img align="right" width="300" src="./.github/assets/readme/advance_advice/autoClean.png" alt="Auto Clean">
+<img align="right" width="330" src="./.github/assets/readme/advance_advice/autoClean.png" alt="Auto Clean">
 
 Y al buscar `LaTex Auto Clean Run`, también dispone de opciones:
   - `onBuilt` limpia después de **cada compilación**
@@ -288,29 +279,13 @@ Siendo en este ejemplo, la opción `onSave` para autoBuild y `never` para autoCl
 ### Eliminar archivos auxiliares
 Para eliminar los archivos auxiliares de compilación manteniendo solo el `main.pdf`, hay que indicar que tipo de archivos se debe borrar en el apartado de [settings](#settings) -> `Clean: File Types`.
 
-<table>
-<tr align="center">
-<td>
-
 <img width="400" src="./.github/assets/readme/advance_advice/cleanfileTypes.png">
-
-</td>
-</tr>
-</table>
 
 Posteriormente en [settings](#settings) -> `Clean: Method` se presenta varias opciones:
 - `glob` busca los archivos en todas las carpetas siguiendo patrones definido en `Clean: File Types`
 - `command` borra según lo que se definió en `Clean: Command`  
 
-<table>
-<tr align="center">
-<td>
-
 <img width="400" src="./.github/assets/readme/advance_advice/cleanMethod.png">
-
-</td>
-</tr>
-</table>
 
 En nuestro caso, elegimos la opción **glob** o en su efecto añadiendo al archivo [**settings.json**](#mejora-visual-reglas-en-80-columnas) añadir al final de ella.  
 Esto es un ejemplo de una configuración donde se borraría todos los archivos temporales menos el `main.pdf`:
