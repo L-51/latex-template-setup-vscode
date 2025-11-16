@@ -11,41 +11,17 @@ Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera 
 
 <!--==Tabla de contenido====================================================================================-->
 ## Tabla de contenido
-- [Configuración y plantilla modular de LaTeX en Visual Studio Code](#configuración-y-plantilla-modular-de-latex-en-visual-studio-code)
-  - [Introducción](#introducción)
-  - [Tabla de contenido](#tabla-de-contenido)
-  - [Inicio Rápido](#inicio-rápido)
-  - [Instalación y configuración de LaTeX en VS Code (Linux)](#instalación-y-configuración-de-latex-en-vs-code-linux)
-    - [1. Visual Studio Code instalado](#1-visual-studio-code-instalado)
-    - [2. Extensión LaTeX Workshop](#2-extensión-latex-workshop)
-    - [3. Paquetes de LaTeX en Linux](#3-paquetes-de-latex-en-linux)
-  - [Estructura de la plantilla](#estructura-de-la-plantilla)
-  - [Consejos básicos](#consejos-básicos)
-    - [Compilar/Guardar](#compilarguardar)
-    - [Visualizar PDF](#visualizar-pdf)
-    - [Terminal](#terminal)
-    - [Snippets y utilidades de LaTeX](#snippets-y-utilidades-de-latex)
-    - [Copilot (en caso de su disposición)](#copilot-en-caso-de-su-disposición)
-    - [Settings](#settings)
-    - [Mejora visual (reglas en 80 columnas)](#mejora-visual-reglas-en-80-columnas)
-    - [Consejo extra: Copilot gratuito para estudiantes](#consejo-extra-copilot-gratuito-para-estudiantes)
-    - [⚠️ Trabajando de forma cooperativo](#️-trabajando-de-forma-cooperativo)
-  - [Consejos avanzados](#consejos-avanzados)
-    - [Configuración de salida de compilación](#configuración-de-salida-de-compilación)
-    - [autoBuild y autoClean](#autobuild-y-autoclean)
-    - [Eliminar archivos auxiliares](#eliminar-archivos-auxiliares)
-    - [Creación de Snippets propios](#creación-de-snippets-propios)
-  - [Conectar con Git y GitHub](#conectar-con-git-y-github)
-    - [1. Instalación de **Git**](#1-instalación-de-git)
-    - [2. Clona el repositorio](#2-clona-el-repositorio)
-    - [3. Accede a la carpeta](#3-accede-a-la-carpeta)
-    - [4. Utilización de Source Control](#4-utilización-de-source-control)
-  - [Organización del proyecto](#organización-del-proyecto)
-  - [Contribución](#contribución)
-  - [Recursos adicionales](#recursos-adicionales)
-    - [Documentación y tutoriales](#documentación-y-tutoriales)
-    - [Git y GitHub](#git-y-github)
-    - [Badges](#badges)
+- [Introducción](#introducción)
+- [Tabla de contenido](#tabla-de-contenido)
+- [Inicio Rápido](#inicio-rápido)
+- [Instalación y configuración de LaTeX en VS Code (Linux)](#instalación-y-configuración-de-latex-en-vs-code-linux)
+- [Estructura de la plantilla](#estructura-de-la-plantilla)
+- [Consejos básicos](#consejos-básicos)
+- [Consejos avanzados](#consejos-avanzados)
+- [Conectar con Git y GitHub](#conectar-con-git-y-github)
+- [Organización del proyecto](#organización-del-proyecto)
+- [Contribución](#contribución)
+- [Recursos adicionales](#recursos-adicionales)
 
 <!--==Inicio Rápido=========================================================================================-->
 ## Inicio Rápido
@@ -111,6 +87,7 @@ Esto instala todo lo necesario para compilar localmente.
         ├── 📄ejercicio_2.tex
         └── 📄ejercicio_3.tex
 ```
+[(Volver arriba)](#tabla-de-contenido)
 
 <!--==Consejos básicos======================================================================================-->
 ## Consejos básicos  
@@ -248,6 +225,9 @@ Para conectar con su cuenta de estudiante, sería ir al apartado de su perfil ->
 ### ⚠️ Trabajando de forma cooperativo
 Si tienes **poco** manejo a la hora de usar GitHub para trabajar con varios usuarios, pensando de cara a una mayor comodidad, se **recomienda separar de forma explícita los ficheros** donde trabajarán cada uno de ellos, y **evitar en la medida de lo posible modificar ficheros no correspondido** de forma accidental.
 
+[(Volver arriba)](#tabla-de-contenido)
+
+<!--==Consejos avanzados=================================================================================-->
 ## Consejos avanzados
 ### Configuración de salida de compilación
 Vaya a [settings](#settings) y escriba en la barra de búsqueda `Latex: Out Dir`, y cambie la ruta de salida donde quieras guardar archivos cuales son resultados de la compilación:
@@ -358,8 +338,9 @@ Un ejemplo de snippet sería:
 - `$i`, *i: número*,  indica dónde estará el cursor después de insertar, y se desplaza tabulando
 - `"description"` descripción opcional
 
-<!--==Git y GitHub=======================================================================================-->
+[(Volver arriba)](#tabla-de-contenido)
 
+<!--==Git y GitHub=======================================================================================-->
 ## Conectar con Git y GitHub
 ### 1. Instalación de **Git**
 ```
@@ -392,20 +373,24 @@ Donde una vez iniciado el repositorio se podrá realizar **commit** utilizando e
 Para repositorio remoto, **pull**(recibir cambios del remoto) y **push**(enviar cambios al remoto), a la hora de hacer **commit**, se puede desplegar a la derecha y emplear **Commit & Push** o **Commit & Pull**.  
 Aunque aún se puede reliazar todos estos comandos a lo tradicional via terminal, VS Code ofrece una herramienta que facilita esta tarea.
 
-<!--==Organización del proyecto============================================================================-->
+[(Volver arriba)](#tabla-de-contenido)
 
+<!--==Organización del proyecto============================================================================-->
 ## Organización del proyecto
 - [**bibliography**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/bibliography) Aquí guardará las referencias en el fichero [ref.bib](https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/main/template/bibliografia/ref.bib)
 - [**config**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/config) Aquí están los [packages](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/config/packages.tex) que usarás y [settings](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/config/settings.tex) que se aplica de forma general al proyecto
 - [**sections**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/sections) Esta carpeta contendrá las distintas secciones que forman parte del trabajo
 - [**images**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/images) Carpeta de las imágenes que se usarán para el proyecto
 - [**title_pages**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/main/template/title_pages) Esta carpeta contiene las portadas del trabajo en formato LaTeX
-- [**main.tex**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/main/template/main.tex) El main donde se incluirá todo, se indica al principio de esta `% !TeX root = main.tex
-`
+- [**main.tex**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/main/template/main.tex) El main donde se incluirá todo, se indica al principio de esta `% !TeX root = main.tex`
+
+[(Volver arriba)](#tabla-de-contenido)
 
 <!--==Contribución==========================================================================================-->
 ## Contribución
 Para contribuir, consulta las [pautas de contribución](./.github/CONTRIBUTING.es.md)
+
+[(Volver arriba)](#tabla-de-contenido)
 
 <!--==Recursos adicionales==================================================================================-->
 ## Recursos adicionales
@@ -422,3 +407,4 @@ Para contribuir, consulta las [pautas de contribución](./.github/CONTRIBUTING.e
 
 ### Badges
 - [Badges para README](https://github.com/inttter/md-badges)
+- [Más badges para README](https://github.com/Ileriayo/markdown-badges)
