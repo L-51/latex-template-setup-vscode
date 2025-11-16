@@ -64,10 +64,11 @@ Si quieres usar la plantilla de inmediato, sin leer todo el tutorial:
 ## Instalación y configuración de LaTeX en VS Code (Linux)
 Ante de usar la plantilla, asegúrate de tener:
 ### 1. Visual Studio Code instalado
-Sigue las instrucciones oficiales:
-[Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux)
 
 <img align="right" width="250" src="./.github/assets/readme/introduction/LaTeX_Extension.png" alt="Extension" />
+
+Sigue las instrucciones oficiales:
+[Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux)
 
 ### 2. Extensión LaTeX Workshop
 Instálala desde VS Code:  
