@@ -59,7 +59,7 @@ Instálala desde VS Code:
 
 <img alight="left" width="250" src="./.github/assets/LaTeX_Extension.png" alt="Extension" />
 
-<img align="right" src="./.github/assets/Terminal_1.png" alt="Terminal" width="305"/>
+<img align="right" src="./.github/assets/Terminal_1.png" alt="Terminal" width="300"/>
 
 ### 3. Paquetes de LaTeX en Linux
 
