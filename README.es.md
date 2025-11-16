@@ -21,6 +21,9 @@ Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera 
     - [3. Paquetes de LaTeX en Linux](#3-paquetes-de-latex-en-linux)
   - [Estructura de la plantilla](#estructura-de-la-plantilla)
   - [Consejos básicos](#consejos-básicos)
+    - [Compilar/Guardar: `Ctrl + S`](#compilarguardar-ctrl--s)
+    - [Visualizar PDF: `Ctrl + Alt + V`](#visualizar-pdf-ctrl--alt--v)
+    - [Consejo extra: Copilot gratuito para estudiantes](#consejo-extra-copilot-gratuito-para-estudiantes)
   - [Consejos avanzados (opcional)](#consejos-avanzados-opcional)
   - [Conectar con Git y GitHub](#conectar-con-git-y-github)
   - [Organización del proyecto](#organización-del-proyecto)
@@ -97,20 +100,15 @@ Se puede usar el atajo `Ctrl + '` para abrir el terminal o desde el icono intera
 ```
 
 <!--========================================================================================================-->
-## Consejos básicos
-- Al tener cuenta de estudiante, el **Copilot de Github** se puede usar gratuitamente.
-  
-  En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** en el apartado de extensiones como previamente se indicó.
-  
-  Para conectar con su cuenta de estudiante, sería ir al apartado de su perfil -> `setting` -> `Emails` y añadir tu cuenta de estudiante
-  
-- `Ctrl + S` para guardar/compilar:
+## Consejos básicos  
+### Compilar/Guardar: `Ctrl + S`
+
   <p align="left">
-    <img src="./.github/assets/Ctrl%2BS.png" alt="Guardar/Compilar" width="250"/>
+    <img src="./.github/assets/Save.png" alt="Save" width="250"/>
     <p><em>Guardar de manera interactiva</em></p>
   </p>
 
-- `Ctrl + Alt + V` para visualizar:
+### Visualizar PDF: `Ctrl + Alt + V`
   <p align="left">
     <img src="./.github/assets/Ctrl%2BAlt%2BV.png" alt="Visualizar" width="400"/>
     <p><em>Icono para visualizar</em></p>
@@ -149,6 +147,13 @@ Se puede usar el atajo `Ctrl + '` para abrir el terminal o desde el icono intera
     <img src="./.github/assets/Settings_json.png" alt="settings.json" width="900"/>
     <p><em>settings.json tras introducir las reglas</em></p>
   </p>
+
+### Consejo extra: Copilot gratuito para estudiantes
+Al tener cuenta de estudiante, el **Copilot de Github** se puede usar gratuitamente.    
+
+En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** en el apartado de extensiones como previamente se indicó.  
+
+Para conectar con su cuenta de estudiante, sería ir al apartado de su perfil -> `setting` -> `Emails` y añadir tu cuenta de estudiante
 
 ## Consejos avanzados (opcional)
 
