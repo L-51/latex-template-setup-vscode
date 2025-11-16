@@ -34,6 +34,7 @@ Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera 
     - [Configuración de salida de compilación](#configuración-de-salida-de-compilación)
     - [autoBuild y autoClean](#autobuild-y-autoclean)
     - [Eliminar archivos auxiliares](#eliminar-archivos-auxiliares)
+    - [Creación de Snippets propios](#creación-de-snippets-propios)
   - [Conectar con Git y GitHub](#conectar-con-git-y-github)
     - [1. Instalación de **Git**](#1-instalación-de-git)
     - [2. Clona el repositorio](#2-clona-el-repositorio)
@@ -324,6 +325,39 @@ Esto es un ejemplo de una configuración donde se borraría todos los archivos t
 "latex-workshop.latex.clean.method": "glob",
 </pre>
 Aunque es interesante destacar que, a cambio de **limpieza**, obtiene una **inconveniencia de tiempo** y [visualizar](#visualizar-pdf) en tiempo real más tardado, ya que en cada guardado se tendría que **compilar** todo de nuevo y generar de vuelta todos los archivos temporales
+
+### Creación de Snippets propios
+
+<img align="left" width="270" src="./.github/assets/readme/advance_advice/configure_Snippets.png">
+
+Son fragmentos de código predefinidos que puedes **insertar con un atajo o completado automático**.  
+Puedes crear tus propios _snippets_ personalizados para escribir LaTeX más rápido.  
+En VS Code para configurarlos: `Ctrl + Shift + P` -> Snippets: Configure Snippets -> Eliges **local o global**
+<img width="400" src="./.github/assets/readme/advance_advice/snippets_file_option.png">
+
+Un ejemplo de snippet sería:
+<pre>
+{
+  "Theorem and Proof": {
+    "prefix": "theoremproof",
+    "body": [
+      "\\begin{theorem}",
+      "    ${1:Statement of the theorem}",
+      "\\end{theorem}",
+      "",
+      "\\begin{proof}",
+      "    ${2:Proof of the theorem}",
+      "\\end{proof}"
+    ],
+    "description": "Snippet for theorem and proof in LaTeX"
+  }
+}
+</pre>
+- `"prefix"` lo que escribes para activar el snippet
+- `"body"` el contenido que se inserta
+- `$i`, *i: número*,  indica dónde estará el cursor después de insertar, y se desplaza tabulando
+- `"description"` descripción opcional
+
 <!--==Git y GitHub=======================================================================================-->
 
 ## Conectar con Git y GitHub
