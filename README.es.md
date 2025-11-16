@@ -46,7 +46,7 @@ Si quieres usar la plantilla de inmediato, sin leer todo el tutorial:
 Ante de usar la plantilla, asegúrate de tener:
 ### 1. Visual Studio Code instalado
 
-<img align="right" width="250" src="./.github/assets/readme/introduction/LaTeX_Extension.png" alt="Extension" />
+<img align="right" width="250" src="./.github/assets/intro/LaTeX_Extension.png" alt="Extension" />
 
 Sigue las instrucciones oficiales:
 [Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux)
@@ -68,7 +68,7 @@ Esto instala todo lo necesario para compilar localmente.
 ## Estructura de la plantilla
 ```bash
 📁Plantilla-de-LaTeX-para-VSCode
-├── 📄README.md
+├── .md
 └── 📁template
     ├── 📁bibliografia
     │   └── 📚ref.bib
@@ -99,7 +99,7 @@ Ctrl + S
 <tr>
 <td align="center">
 
-<img src="./.github/assets/readme/basic_advice/Save.png" alt="Save" width="250"/><br>
+<img src="./.github/assets/basic/Save.png" alt="Save" width="250"/><br>
 <em>Vía botón GUI</em>
 
 </td>
@@ -114,7 +114,7 @@ Ctrl + Alt + V
 <tr>
 <td align="center">
 
-<img src="./.github/assets/readme/basic_advice/Visualise.png" alt="Visualise" width="220"/><br>
+<img src="./.github/assets/basic/Visualise.png" alt="Visualise" width="220"/><br>
 <em>Vía botón GUI</em>
 
 </td>
@@ -131,7 +131,7 @@ Ctrl + `
 <tr>
 <td align="center">
 
-<img src="./.github/assets/readme/basic_advice/Terminal.png" alt="Terminal" width="300"/><br>
+<img src="./.github/assets/basic/Terminal.png" alt="Terminal" width="300"/><br>
 <em>Vía botón GUI</em>
 
 </td>
@@ -146,7 +146,7 @@ Ctrl + Alt + X
 <tr>
 <td align="center">
 
-<img src="./.github/assets/readme/basic_advice/Snippet_and_Utility.png" alt="Snippet_and_Utility" width="300"/><br>
+<img src="./.github/assets/basic/Snippet_and_Utility.png" alt="Snippet_and_Utility" width="300"/><br>
 <em>Vía botón GUI</em>
 
 </td>
@@ -162,7 +162,7 @@ Ctrl + I
 <tr>
 <td align="center">
 
-<img src="./.github/assets/readme/basic_advice/Inline_chat_Copilot.png" alt="Inline_chat_Copilot" width="300"/><br>
+<img src="./.github/assets/basic/Inline_chat_Copilot.png" alt="Inline_chat_Copilot" width="300"/><br>
 <em>Botón derecho y seleccionar vía GUI</em>
 
 </td>
@@ -177,7 +177,7 @@ Ctrl + ,
 <tr>
 <td align="center">
 
-<img src="./.github/assets/readme/basic_advice/Settings.png" alt="Settings" width="300"/><br>
+<img src="./.github/assets/basic/Settings.png" alt="Settings" width="300"/><br>
 <em>Ajuste vía GUI</em>
 
 </td>
@@ -192,7 +192,7 @@ Vamos a [settings](#ajuste-de-vs-code), escribimos en la barra de búsqueda **ru
 <tr>
 <td align="center">
 
-<img src="./.github/assets/readme/basic_advice/Rulers_search.png" alt="Rulers_search" width="300"/><br>
+<img src="./.github/assets/basic/Rulers_search.png" alt="Rulers_search" width="300"/><br>
 <em>Resultado de la búsqueda</em>
 
 </td>
@@ -232,9 +232,9 @@ Si tienes **poco** manejo a la hora de usar GitHub para trabajar con varios usua
 ### Configuración de salida de compilación
 Vaya a [settings](#settings) y escriba en la barra de búsqueda `Latex: Out Dir`, y cambie la ruta de salida donde quieras guardar archivos cuales son resultados de la compilación:
 
-<img src="./.github/assets/readme/advance_advice/OutDir.png" alt="OutDir" width="370"/>
+<img src="./.github/assets/advanced/OutDir.png" alt="OutDir" width="370"/>
 
-<img align="right" width="330" src="./.github/assets/readme/advance_advice/autoBuild.png" alt="Auto Build">
+<img align="right" width="330" src="./.github/assets/advanced/autoBuild.png" alt="Auto Build">
 
 ### autoBuild y autoClean
 Accediendo a [settings](#settings), y buscar `LaTex Auto Build Run` le aparecerá un apartado donde se podrá elegir la opción de compilación:
@@ -242,7 +242,7 @@ Accediendo a [settings](#settings), y buscar `LaTex Auto Build Run` le aparecer�
   - `onSave` compila solo cuando **guardas el archivo** (`Ctrl+S`), más recomendable para tener un mejor control de la compilación
   - `onFileChange` compila automáticamente cada vez que **detecta un cambio en el archivo** (aunque no lo guardes)
 
-<img align="right" width="330" src="./.github/assets/readme/advance_advice/autoClean.png" alt="Auto Clean">
+<img align="right" width="330" src="./.github/assets/advanced/autoClean.png" alt="Auto Clean">
 
 Y al buscar `LaTex Auto Clean Run`, también dispone de opciones:
   - `onBuilt` limpia después de **cada compilación**
@@ -260,13 +260,13 @@ Siendo en este ejemplo, la opción `onSave` para autoBuild y `never` para autoCl
 ### Eliminar archivos auxiliares
 Para eliminar los archivos auxiliares de compilación manteniendo solo el `main.pdf`, hay que indicar que tipo de archivos se debe borrar en el apartado de [settings](#settings) -> `Clean: File Types`.
 
-<img width="400" src="./.github/assets/readme/advance_advice/cleanfileTypes.png">
+<img width="400" src="./.github/assets/advanced/cleanfileTypes.png">
 
 Posteriormente en [settings](#settings) -> `Clean: Method` se presenta varias opciones:
 - `glob` busca los archivos en todas las carpetas siguiendo patrones definido en `Clean: File Types`
 - `command` borra según lo que se definió en `Clean: Command`  
 
-<img width="400" src="./.github/assets/readme/advance_advice/cleanMethod.png">
+<img width="400" src="./.github/assets/advanced/cleanMethod.png">
 
 En nuestro caso, elegimos la opción **glob** o en su efecto añadiendo al archivo [**settings.json**](#mejora-visual-reglas-en-80-columnas) añadir al final de ella.  
 Esto es un ejemplo de una configuración donde se borraría todos los archivos temporales menos el `main.pdf`:
@@ -308,12 +308,12 @@ Aunque es interesante destacar que, a cambio de **limpieza**, obtiene una **inco
 
 ### Creación de Snippets propios
 
-<img align="left" width="270" src="./.github/assets/readme/advance_advice/configure_Snippets.png">
+<img align="left" width="270" src="./.github/assets/advanced/configure_Snippets.png">
 
 Son fragmentos de código predefinidos que puedes **insertar con un atajo o completado automático**.  
 Puedes crear tus propios _snippets_ personalizados para escribir LaTeX más rápido.  
 En VS Code para configurarlos: `Ctrl + Shift + P` -> Snippets: Configure Snippets -> Eliges **local o global**
-<img width="400" src="./.github/assets/readme/advance_advice/snippets_file_option.png">
+<img width="400" src="./.github/assets/advanced/snippets_file_option.png">
 
 Un ejemplo de snippet sería:
 <pre>
@@ -362,12 +362,12 @@ cd Plantilla-LaTex-para-VSCode
 code Plantilla-LaTex-para-VSCode
 </pre>
 
-<img align="right" width="250" src="./.github/assets/readme/git_and_github/Source_Control.png" alt="Source_Control" />
+<img align="right" width="250" src="./.github/assets/git/Source_Control.png" alt="Source_Control" />
 
 ### 4. Utilización de Source Control
 Para inicializar un repositorio con **Git** o un **respositorio remoto**, se puede hacer vía terminal como lo indica este [tutorial](https://docs.github.com/en/get-started/git-basics/about-remote-repositories) de GitHub, o, mediante VS Code cual te ofrece una herramienta GUI, **Source Control**, se puede acceder mediante atajo `Ctrl + Shift + G`, o desde el explorador situado a la izquierda.
 
-<img align="left" width="300" src="./.github/assets/readme/git_and_github/Pull_Push_Combined.png" alt="Pull_Push_Combined" />
+<img align="left" width="300" src="./.github/assets/git/Pull_Push_Combined.png" alt="Pull_Push_Combined" />
 
 Donde una vez iniciado el repositorio se podrá realizar **commit** utilizando el **Source Control**.  
 Para repositorio remoto, **pull**(recibir cambios del remoto) y **push**(enviar cambios al remoto), a la hora de hacer **commit**, se puede desplegar a la derecha y emplear **Commit & Push** o **Commit & Pull**.  
