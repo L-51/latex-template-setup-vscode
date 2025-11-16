@@ -49,10 +49,6 @@ Si quieres usar la plantilla de inmediato, sin leer todo el tutorial:
 ## Instalación y configuración de LaTeX en VS Code (Linux)
 Ante de usar la plantilla, asegúrate de tener:
 ### 1. Visual Studio Code instalado
-<p align="right" style="padding-right: 210px;">
-  <img align="right" width="160" src="./.github/assets/LaTeX_Extension.png" alt="Extension" />
-</p>
-
 Sigue las instrucciones oficiales:
 [Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux)
 
@@ -60,9 +56,11 @@ Sigue las instrucciones oficiales:
 Instálala desde VS Code:  
 `Ctrl + Shift + X` -> busca LaTeX Workshop -> Instalar
 
-### 3. Paquetes de LaTeX en Linux
+<img alight="left" width="220" src="./.github/assets/LaTeX_Extension.png" alt="Extension" />
 
 <img align="right" src="./.github/assets/Terminal.png" alt="Terminal" width="250"/>
+
+### 3. Paquetes de LaTeX en Linux
 
 Ejecuta en la terminal:
 ```bash
@@ -71,7 +69,7 @@ sudo apt install texlive-full -y
 
 Esto instala todo lo necesario para compilar localmente  
 
-Se puede usar el atajo `Ctrl + '` para abrir el terminal o desde el icono interactivo:
+Se puede usar el atajo `Ctrl + '` para abrir el terminal o desde el icono interactivo.
   
 <!--========================================================================================================-->
 ## Estructura de la plantilla
