@@ -34,10 +34,9 @@ Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera 
     - [](#)
   - [Conectar con Git y GitHub](#conectar-con-git-y-github)
     - [1. Instalación de **Git**](#1-instalación-de-git)
-    - [2. Configurar Git](#2-configurar-git)
-    - [3. Clona el repositorio](#3-clona-el-repositorio)
-    - [4. Accede a la carpeta](#4-accede-a-la-carpeta)
-    - [5. Utilización de Source Control](#5-utilización-de-source-control)
+    - [2. Clona el repositorio](#2-clona-el-repositorio)
+    - [3. Accede a la carpeta](#3-accede-a-la-carpeta)
+    - [4. Utilización de Source Control](#4-utilización-de-source-control)
   - [Organización del proyecto](#organización-del-proyecto)
   - [⚠️Recomendación final:](#️recomendación-final)
   - [Contribución](#contribución)
@@ -48,7 +47,7 @@ Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera 
 Si quieres usar la plantilla de inmediato, sin leer todo el tutorial:
 1. **Clona el repositorio**
    ```bash
-     git clone https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE.git
+     git clone https://github.com/L-51/Plantilla-LaTex-para-VSCode.git
    ```
    o con **SSH**:
    ```bash
@@ -83,7 +82,7 @@ sudo apt install texlive-full -y
 
 Esto instala todo lo necesario para compilar localmente.
   
-<!--========================================================================================================-->
+<!--==Estructura de la plantilla============================================================================-->
 ## Estructura de la plantilla
 ```bash
 📁Plantilla-de-LaTeX-para-VSCode
@@ -107,7 +106,7 @@ Esto instala todo lo necesario para compilar localmente.
         └── 📄ejercicio_3.tex
 ```
 
-<!--========================================================================================================-->
+<!--==Consejos básicos======================================================================================-->
 ## Consejos básicos  
 ### Compilar/Guardar
 ```
@@ -324,20 +323,14 @@ Vaya a [settings](#settings) y escriba en la barra de búsqueda `Latex: Out Dir`
     <img src="././.github/assets/CleanMethod.png" alt="CleanMethod" width="450"/>
     <p><em>Elegir el método de limpieza de forma interactiva</em></p>
   </p>
-<!--========================================================================================================-->
+<!--==Git y GitHub=======================================================================================-->
 
 ## Conectar con Git y GitHub
 ### 1. Instalación de **Git**
 ```
 sudo apt install git -y
 ```
-### 2. Configurar Git
-<pre>
-git config --global user.name "Tu Nombre"
-git config --global user.email "tuemail@dominio.com"
-</pre>
-O mediante **SSH key**, pulsa [aquí](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) para un tutorial por parte de GitHub
-### 3. Clona el repositorio
+### 2. Clona el repositorio
 ```
 git clone https://github.com/L-51/Plantilla-LaTex-para-VSCode.git
 ```
@@ -346,8 +339,8 @@ O con **SSH**
 git clone git@github.com:L-51/Plantilla-LaTex-para-VSCode.git
 ```
 O descarga el zip [template.zip](https://github.com/L-51/Plantilla-LaTex-para-VSCode/releases) en **release** y posteriormente lo descomprime.
-### 4. Accede a la carpeta 
-Usando **Open Folder** de VSC o _click derecho_ sobre la carpeta -> _abrir con_ -> escribir **code** -> _Enter_, o vía terminal con:
+### 3. Accede a la carpeta 
+Usando _file_ -> **Open Folder** de VSC o _click derecho_ sobre la **carpeta** -> _abrir con_ -> buscar **VS Code** -> _Enter_, o vía terminal con:
 <pre>
 cd Plantilla-LaTex-para-VSCode
 code Plantilla-LaTex-para-VSCode
@@ -355,69 +348,40 @@ code Plantilla-LaTex-para-VSCode
 
 <img align="right" width="250" src="./.github/assets/readme/git_and_github/Source_Control.png" alt="Source_Control" />
 
-### 5. Utilización de Source Control
+### 4. Utilización de Source Control
 Para inicializar un repositorio con **Git** o un **respositorio remoto**, se puede hacer vía terminal como lo indica este [tutorial](https://docs.github.com/en/get-started/git-basics/about-remote-repositories) de GitHub, o, mediante VS Code cual te ofrece una herramienta GUI, **Source Control**, se puede acceder mediante atajo `Ctrl + Shift + G`, o desde el explorador situado a la izquierda.
 
-Donde una vez iniciado el repositorio se podrá realizar **commit**.  
-Para repositorio remoto, **pull**(recibir cambios del remoto) y **push**(enviar cambios al remoto), a la hora de hacer **commit**, se puede desplegar a la derecha y emplear **Commit & Push** o **Commit & Pull**.
-<p>
-  <img src="./.github/assets/Source_Control.png" alt="Source Control" width="300"/>
-</p>
-<p>
-  <img src="./.github/assets/Simbolo_pull.png" alt="Pull" width="350"/>
-</p>
-<p>
-  <img src="./.github/assets/Simbolo_push.png" alt="Push" width="350"/>
-</p>
-<p>
-  <img src="./.github/assets/Commit%26.png" alt="Commit &" width="400"/>
-</p>
-<!--========================================================================================================-->
+<img align="left" width="250" src="./.github/assets/readme/git_and_github/Pull_Push_Combined.png" alt="Pull_Push_Combined" />
+
+Donde una vez iniciado el repositorio se podrá realizar **commit** utilizando el **Source Control**.  
+Para repositorio remoto, **pull**(recibir cambios del remoto) y **push**(enviar cambios al remoto), a la hora de hacer **commit**, se puede desplegar a la derecha y emplear **Commit & Push** o **Commit & Pull**.  
+Aunque aún se puede reliazar todos estos comandos a lo tradicional via terminal, VS Code ofrece una herramienta que facilita esta tarea.
+
+<!--==Organización del proyecto============================================================================-->
 
 ## Organización del proyecto
-- [**bibliografia**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/bibliografia) Aquí guardará las referencias en el fichero [ref.bib](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/bibliografia/ref.bib)
-- [**config**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/config) Aquí están los [paquetes](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/config/packages.tex) que usarás y [setting](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/config/settings.tex) que se aplica de forma general al proyecto
-- [**secciones**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/secciones) Esta carpeta contendrá las distintas secciones que forman parte del trabajo
-- [**images**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/images) Carpeta de las imágenes que se usarán para el proyecto
-- [**portadas**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/portadas) Esta carpeta contiene las portadas del trabajo en formato LaTeX
-- [**main.tex**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/main.tex) El main donde se incluirá todo, se indica al principio de esta `% !TeX root = main.tex
+- [**bibliography**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/bibliography) Aquí guardará las referencias en el fichero [ref.bib](https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/main/template/bibliografia/ref.bib)
+- [**config**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/config) Aquí están los [packages](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/config/packages.tex) que usarás y [settings](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/config/settings.tex) que se aplica de forma general al proyecto
+- [**sections**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/sections) Esta carpeta contendrá las distintas secciones que forman parte del trabajo
+- [**images**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/images) Carpeta de las imágenes que se usarán para el proyecto
+- [**title_pages**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/main/template/title_pages) Esta carpeta contiene las portadas del trabajo en formato LaTeX
+- [**main.tex**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/main/template/main.tex) El main donde se incluirá todo, se indica al principio de esta `% !TeX root = main.tex
 `
-<!--========================================================================================================-->
+<!--==Recomendación final===================================================================================-->
 
 ---  
 ## ⚠️Recomendación final:
 Si tienes poco manejo a la hora de usar GitHub para trabajar con varios usuarios y una mayor comodidad, se recomienda separar de forma explícita los ficheros donde trabajarán cada uno de ellos, y evitar en la medida de lo posible modificar ficheros no correspondido de forma accidental
 
 ---
-<!--========================================================================================================-->
+<!--==Contribución==========================================================================================-->
 ## Contribución
-¡Siempre son bienvenidas las contribuciones!
-Si quieres colaborar, por favor sigue estos pasos:
-1. Haz un **fork** del repositorio
-2. Crea una nueva rama para tus cambios:
-   ```bash
-     git -checkout -b feature/nueva-funcion
-   ```
-   O para otros propósitos:
-   - `feature/` -> para nuevas funciones o mejoras
-   - `fix/` -> para correcciones de errores
-   - `hotfix/` -> para parches urgentes
-   - `docs` -> para cambios de documentación
-3. Realiza tus modificaciones y haz commit:
-   ```bash
-     git commit -m "mensaje"
-   ```
-4. Sube tus cambios:
-   ```bash
-     git push origin feature/nueva-funcion
-   ```
-5. Abre un **Pull Request** para revisión
+Para contribuir, consulta las [pautas de contribución](./.github/CONTRIBUTING.es.md)
 
-Puedes consultar el apartado de [**Recursos adicionales**](#recursos-adicionales) donde hay un tutorial
-
+<!--==Recursos adicionales==================================================================================-->
 ## Recursos adicionales
-- [Documentación de LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
-- [Manual sencillo de LaTex](https://manualdelatex.com/tutoriales)
+- [**Documentación** de LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
+- [Manual sencillo para comenzar a escribir en LaTex](https://manualdelatex.com/tutoriales)
 - [Plantillas realizadas por LosDelGIIM](https://github.com/LosDelDGIIM/LosDelDGIIM.github.io/tree/main/subjects/_plantillas)
 - [Tutorial para realizar un **pull request** en Github](https://github.blog/developer-skills/github/beginners-guide-to-github-creating-a-pull-request/)
 - [Badges para readme](https://github.com/inttter/md-badges)
