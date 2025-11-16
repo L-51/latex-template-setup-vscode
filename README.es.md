@@ -74,25 +74,22 @@ Se puede usar el atajo `Ctrl + '` para abrir el terminal o desde el icono intera
 <!--========================================================================================================-->
 ## Estructura de la plantilla
 ```bash
-📁Plantilla-de-LaTeX-para-VSCode
-├── 📄README.md
-└── 📁template
-    ├── 📁bibliografia
-    │   └── 📚ref.bib
-    ├── 📁config
-    │   ├── ⚙️settings.tex
-    │   └── 📄packages.tex
-    ├── 📁ficheros
-    ├── 📄.gitignore
-    ├── 📁images
-    │   └── 🖼️Example.png
-    ├── 📄main.tex
-    ├── 📁portadas
-    │   └── 📄portada_ejemplo.tex
-    └── 📁secciones
-        ├── 📄ejercicio_1.tex
-        ├── 📄ejercicio_2.tex
-        └── 📄ejercicio_3.tex
+📁template
+├── 📁bibliography
+│   └── 📚ref.bib
+├── 📁config
+│   ├── 📄packages.tex
+│   └── ⚙️settings.tex
+├── 📄.gitignore
+├── 📁images
+│   └── 🖼️Example.png
+├── main.tex
+├── 📁sections
+│   ├── 📄section_1.tex
+│   ├── 📄section_2.tex
+│   └── 📄section_3.tex
+└── 📁title_pages
+    └── 📄example_title_page.tex
 ```
 
 <!--========================================================================================================-->
