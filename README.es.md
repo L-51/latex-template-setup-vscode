@@ -29,18 +29,22 @@ Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera 
     - [Settings](#settings)
     - [Mejora visual (reglas en 80 columnas)](#mejora-visual-reglas-en-80-columnas)
     - [Consejo extra: Copilot gratuito para estudiantes](#consejo-extra-copilot-gratuito-para-estudiantes)
+    - [⚠️ Trabajando de forma cooperativo](#️-trabajando-de-forma-cooperativo)
   - [Consejos avanzados](#consejos-avanzados)
     - [Configuración de salida de compilación](#configuración-de-salida-de-compilación)
-    - [](#)
+    - [autoBuild y autoClean](#autobuild-y-autoclean)
+    - [Eliminar archivos auxiliares](#eliminar-archivos-auxiliares)
   - [Conectar con Git y GitHub](#conectar-con-git-y-github)
     - [1. Instalación de **Git**](#1-instalación-de-git)
     - [2. Clona el repositorio](#2-clona-el-repositorio)
     - [3. Accede a la carpeta](#3-accede-a-la-carpeta)
     - [4. Utilización de Source Control](#4-utilización-de-source-control)
   - [Organización del proyecto](#organización-del-proyecto)
-  - [⚠️Recomendación final:](#️recomendación-final)
   - [Contribución](#contribución)
   - [Recursos adicionales](#recursos-adicionales)
+    - [Documentación y tutoriales](#documentación-y-tutoriales)
+    - [Git y GitHub](#git-y-github)
+    - [Badges](#badges)
 
 <!--==Inicio Rápido=========================================================================================-->
 ## Inicio Rápido
@@ -240,6 +244,9 @@ En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** 
 
 Para conectar con su cuenta de estudiante, sería ir al apartado de su perfil -> `setting` -> `Emails` y añadir tu cuenta de estudiante
 
+### ⚠️ Trabajando de forma cooperativo
+Si tienes **poco** manejo a la hora de usar GitHub para trabajar con varios usuarios, pensando de cara a una mayor comodidad, se **recomienda separar de forma explícita los ficheros** donde trabajarán cada uno de ellos, y **evitar en la medida de lo posible modificar ficheros no correspondido** de forma accidental.
+
 ## Consejos avanzados
 ### Configuración de salida de compilación
 Vaya a [settings](#settings) y escriba en la barra de búsqueda `Latex: Out Dir`, y cambie la ruta de salida donde quieras guardar archivos cuales son resultados de la compilación:
@@ -255,75 +262,93 @@ Vaya a [settings](#settings) y escriba en la barra de búsqueda `Latex: Out Dir`
 </tr>
 </table>
 
-### 
-  
-- **(Opcional 2)** Si accedes a ajuste sea por icono o sea por `Ctrl + ,`, y busca `LaTex Auto Build Run` le aparecerá un apartado donde se podrá elegir la opción de compilación:
+<img align="right" width="300" src="./.github/assets/readme/advance_advice/autoBuild.png" alt="Auto Build">
+
+### autoBuild y autoClean
+Accediendo a [settings](#settings), y buscar `LaTex Auto Build Run` le aparecerá un apartado donde se podrá elegir la opción de compilación:
   - `never` compila solo cuando lanza el comando **Build LaTeX project** manualmente (`Ctrl+Alt+B` por defecto)
   - `onSave` compila solo cuando **guardas el archivo** (`Ctrl+S`), más recomendable para tener un mejor control de la compilación
   - `onFileChange` compila automáticamente cada vez que **detecta un cambio en el archivo** (aunque no lo guardes)
-    
-  Y al buscar `LaTex Auto Clean Run`, también dispone de opciones:
+
+<img align="right" width="300" src="./.github/assets/readme/advance_advice/autoClean.png" alt="Auto Clean">
+
+Y al buscar `LaTex Auto Clean Run`, también dispone de opciones:
   - `onBuilt` limpia después de **cada compilación**
   - `onFailed` limpia solo si la **compilación falla**
   - `onSucceeded` limpia solo si **compilación fue exitosa**
   - `never` limpia solo cuando lanza el comando **LaTeX Workshop: Clean up auxiliary files** (lo puedes buscar con `Ctrl+Shift+P`)
-<p>
-  <img src="./.github/assets/autoBuild.png" alt="AutoBuild Run" width="750"/>
-  <p><em>Resultado de la búsqueda</em></p>
-</p>
-<p>
-  <img src="./.github/assets/autoClean.png" alt="AutoBuild Run" width="750"/>
-  <p><em>Resultado de la búsqueda</em></p>
-</p>
-<p>
-  <img src="./.github/assets/setting_json_alt.png" alt="AutoBuild Run" width="550"/>
-  <p><em>settings.json tras elegir el modo</em></p>
-</p>
 
-  Además para poder eliminar todos los archivos de compilación manteniendo solo el `main.pdf`, habría que añadir parámetros en ajuste buscando `Clean: File Types` y en `Clean: Method` elegir la opción **glob** o en su efecto añadiendo al archivo `settings.json` buscando **rulers** como previo en **comodidad visual** del apartado [tips](#tipsconsejos) se indica, y añadir al final de ella:
-  <pre>
-    "latex-workshop.latex.autoBuild.run": "onSave",
-    "latex-workshop.latex.autoClean.run": "onBuilt",
-    "latex-workshop.latex.clean.fileTypes": [
-        "*.aux",
-        "*.bbl",
-        "*.bcf",
-        "*.blg",
-        "*.idx",
-        "*.ilg",
-        "*.ind",
-        "*.lof",
-        "*.lot",
-        "*.out",
-        "*.toc",
-        "*.acn",
-        "*.acr",
-        "*.alg",
-        "*.glg",
-        "*.glo",
-        "*.gls",
-        "*.fls",
-        "*.log",
-        "*.fdb_latexmk",
-        "*.snm",
-        "*.synctex(busy)",
-        "*.synctex.gz(busy)",
-        "*.nav",
-        "*.vrb",
-        "*.run.xml",
-        "*.synctex.gz"
-    ],
-    "latex-workshop.latex.clean.method": "glob",
-  </pre>
-  <p><em>Con opción de onSave y onBuilt, eliminando todos los archivos de compilación</em></p>
-  <p>
-    <img src="././.github/assets/CleanFileTypes.png" alt="CleanFileTypes" width="450"/>
-    <p><em>Resultado de búsqueda y añadir parámetros de forma interactiva</em></p>
-  </p>
-  <p>
-    <img src="././.github/assets/CleanMethod.png" alt="CleanMethod" width="450"/>
-    <p><em>Elegir el método de limpieza de forma interactiva</em></p>
-  </p>
+O se puede añadir manualmente al final de [**settings.json**](#mejora-visual-reglas-en-80-columnas) las siguientes líneas:
+<pre>
+"latex-workshop.latex.autoBuild.run": "onSave",
+"latex-workshop.latex.autoClean.run": "never",
+</pre>
+Siendo en este ejemplo, la opción `onSave` para autoBuild y `never` para autoClean.
+
+### Eliminar archivos auxiliares
+Para eliminar los archivos auxiliares de compilación manteniendo solo el `main.pdf`, hay que indicar que tipo de archivos se debe borrar en el apartado de [settings](#settings) -> `Clean: File Types`.
+
+<table>
+<tr align="center">
+<td>
+
+<img width="400" src="./.github/assets/readme/advance_advice/cleanfileTypes.png">
+
+</td>
+</tr>
+</table>
+
+Posteriormente en [settings](#settings) -> `Clean: Method` se presenta varias opciones:
+- `glob` busca los archivos en todas las carpetas siguiendo patrones definido en `Clean: File Types`
+- `command` borra según lo que se definió en `Clean: Command`  
+
+<table>
+<tr align="center">
+<td>
+
+<img width="400" src="./.github/assets/readme/advance_advice/cleanMethod.png">
+
+</td>
+</tr>
+</table>
+
+En nuestro caso, elegimos la opción **glob** o en su efecto añadiendo al archivo [**settings.json**](#mejora-visual-reglas-en-80-columnas) añadir al final de ella.  
+Esto es un ejemplo de una configuración donde se borraría todos los archivos temporales menos el `main.pdf`:
+<pre>
+"latex-workshop.latex.autoBuild.run": "onSave",
+"latex-workshop.latex.autoClean.run": "onBuilt",
+"latex-workshop.latex.clean.fileTypes": [
+    "*.aux",
+    "*.bbl",
+    "*.bcf",
+    "*.blg",
+    "*.idx",
+    "*.ilg",
+    "*.ind",
+    "*.lof",
+    "*.lot",
+    "*.out",
+    "*.toc",
+    "*.acn",
+    "*.acr",
+    "*.alg",
+    "*.glg",
+    "*.glo",
+    "*.gls",
+    "*.fls",
+    "*.log",
+    "*.fdb_latexmk",
+    "*.snm",
+    "*.synctex(busy)",
+    "*.synctex.gz(busy)",
+    "*.nav",
+    "*.vrb",
+    "*.run.xml",
+    "*.synctex.gz"
+],
+"latex-workshop.latex.clean.method": "glob",
+</pre>
+Aunque es interesante destacar que, a cambio de **limpieza**, obtiene una **inconveniencia de tiempo** y [visualizar](#visualizar-pdf) en tiempo real más tardado, ya que en cada guardado se tendría que **compilar** todo de nuevo y generar de vuelta todos los archivos temporales
 <!--==Git y GitHub=======================================================================================-->
 
 ## Conectar con Git y GitHub
@@ -368,24 +393,23 @@ Aunque aún se puede reliazar todos estos comandos a lo tradicional via terminal
 - [**title_pages**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/main/template/title_pages) Esta carpeta contiene las portadas del trabajo en formato LaTeX
 - [**main.tex**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/main/template/main.tex) El main donde se incluirá todo, se indica al principio de esta `% !TeX root = main.tex
 `
-<!--==Recomendación final===================================================================================-->
 
----  
-## ⚠️Recomendación final:
-Si tienes poco manejo a la hora de usar GitHub para trabajar con varios usuarios y una mayor comodidad, se recomienda separar de forma explícita los ficheros donde trabajarán cada uno de ellos, y evitar en la medida de lo posible modificar ficheros no correspondido de forma accidental
-
----
 <!--==Contribución==========================================================================================-->
 ## Contribución
 Para contribuir, consulta las [pautas de contribución](./.github/CONTRIBUTING.es.md)
 
 <!--==Recursos adicionales==================================================================================-->
 ## Recursos adicionales
-- [**Documentación** de LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
-- [Manual sencillo para comenzar a escribir en LaTex](https://manualdelatex.com/tutoriales)
-- [Plantillas realizadas por LosDelGIIM](https://github.com/LosDelDGIIM/LosDelDGIIM.github.io/tree/main/subjects/_plantillas)
-- [Tutorial para realizar un **pull request** en Github](https://github.blog/developer-skills/github/beginners-guide-to-github-creating-a-pull-request/)
-- [Badges para readme](https://github.com/inttter/md-badges)
-- [Generar y configurar SSH key para tu cuenta de GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-- [Cómo realizar tu primera contribución](https://github.com/firstcontributions/first-contributions)
-- [Enlaces utiles sobre Git](https://github.com/firstcontributions/first-contributions/blob/main/docs/additional-material/git_workflow_scenarios/Useful-links-for-further-learning.md)
+
+### Documentación y tutoriales
+- [Documentación de LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
+- [Manual sencillo de LaTeX](https://manualdelatex.com/tutoriales)
+- [Plantillas de LosDelGIIM](https://github.com/LosDelDGIIM/LosDelGIIM.github.io/tree/main/subjects/_plantillas)
+
+### Git y GitHub
+- [Primer Pull Request](https://github.blog/developer-skills/github/beginners-guide-to-github-creating-a-pull-request/)
+- [Generar SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+- [Enlaces útiles sobre Git](https://github.com/firstcontributions/first-contributions/blob/main/docs/additional-material/git_workflow_scenarios/Useful-links-for-further-learning.md)
+
+### Badges
+- [Badges para README](https://github.com/inttter/md-badges)
