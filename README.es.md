@@ -21,10 +21,15 @@ Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera 
     - [3. Paquetes de LaTeX en Linux](#3-paquetes-de-latex-en-linux)
   - [Estructura de la plantilla](#estructura-de-la-plantilla)
   - [Consejos básicos](#consejos-básicos)
-    - [Compilar/Guardar: `Ctrl + S`](#compilarguardar-ctrl--s)
-    - [Visualizar PDF: `Ctrl + Alt + V`](#visualizar-pdf-ctrl--alt--v)
+    - [Compilar/Guardar](#compilarguardar)
+    - [Visualizar PDF](#visualizar-pdf)
+    - [Terminal](#terminal)
+    - [Snippets y utilidades de LaTeX](#snippets-y-utilidades-de-latex)
+    - [Copilot (en caso de su disposición)](#copilot-en-caso-de-su-disposición)
+    - [Settings](#settings)
+    - [Mejora visual (reglas en 80 columnas)](#mejora-visual-reglas-en-80-columnas)
     - [Consejo extra: Copilot gratuito para estudiantes](#consejo-extra-copilot-gratuito-para-estudiantes)
-  - [Consejos avanzados (opcional)](#consejos-avanzados-opcional)
+  - [Consejos avanzados](#consejos-avanzados)
   - [Conectar con Git y GitHub](#conectar-con-git-y-github)
   - [Organización del proyecto](#organización-del-proyecto)
   - [⚠️Recomendación final:](#️recomendación-final)
@@ -60,20 +65,16 @@ Sigue las instrucciones oficiales:
 Instálala desde VS Code:  
 `Ctrl + Shift + X` -> busca LaTeX Workshop -> Instalar
 
-<img alight="left" width="250" src="./.github/assets/LaTeX_Extension.png" alt="Extension" />
-
-<img align="right" src="./.github/assets/Terminal_1.png" alt="Terminal" width="300"/>
+<img alight="left" width="250" src="./.github/assets/readme/introduction/LaTeX_Extension.png" alt="Extension" />
 
 ### 3. Paquetes de LaTeX en Linux
 
-Ejecuta en la terminal:
+Ejecuta en la terminal, en VS Code también dispone de un [terminal integrado](#terminal):
 ```bash
 sudo apt install texlive-full -y
 ```
 
-Esto instala todo lo necesario para compilar localmente  
-
-Se puede usar el atajo `Ctrl + '` para abrir el terminal o desde el icono interactivo.
+Esto instala todo lo necesario para compilar localmente.
   
 <!--========================================================================================================-->
 ## Estructura de la plantilla
@@ -101,52 +102,129 @@ Se puede usar el atajo `Ctrl + '` para abrir el terminal o desde el icono intera
 
 <!--========================================================================================================-->
 ## Consejos básicos  
-### Compilar/Guardar: `Ctrl + S`
+### Compilar/Guardar
+```
+Ctrl + S
+```
+<table>
+<tr>
+<td align="center">
 
-  <p align="left">
-    <img src="./.github/assets/Save.png" alt="Save" width="250"/>
-    <p><em>Guardar de manera interactiva</em></p>
-  </p>
+<img src="./.github/assets/readme/basic_advice/Save.png" alt="Save" width="250"/><br>
+<em>Vía botón GUI</em>
 
-### Visualizar PDF: `Ctrl + Alt + V`
-  <p align="left">
-    <img src="./.github/assets/Ctrl%2BAlt%2BV.png" alt="Visualizar" width="400"/>
-    <p><em>Icono para visualizar</em></p>
-  </p>
+</td>
+</tr>
+</table>
 
-- Si tienes el `main.pdf` abierto para visualizar como previa mención, al guardar, se puedes ver los cambios reflejados en el pdf
-  
-- `Ctrl + Alt + X` le abrirá una ventana asociado al compilador de Latex y abajo izquierda con snippet
-  <p>
-    <img src="./.github/assets/Snippet.png" alt="Snippet" width="200"/>
-    <p><em>Localización de las facilidades de LaTeX</em></p>
-  </p>
+### Visualizar PDF
+```
+Ctrl + Alt + V
+```
+<table>
+<tr>
+<td align="center">
 
-- `Ctrl + I` para abrir **Copilot**(en caso de disposición de su extensión)
-  <p>
-    <img src="./.github/assets/Ctrl%2BI.png" alt="Inline chat" width="350"/>
-    <p><em>Iniciar una interacción con el chatbot</em></p>
-  </p>
+<img src="./.github/assets/readme/basic_advice/Visualise.png" alt="Visualise" width="220"/><br>
+<em>Vía botón GUI</em>
 
-- **(Comodidad visual)** Para una mejor visualización del entorno, abrimos configuración o en su defecto `Ctrl + ,`, escribir en la barra de búsqueda **rulers**, para posteriormente abrir **Edit in setting.json**, tras `"workbench.colorTheme": "Default Light Modern",` añadimos lo siguiente para que aparezca a la anchura de 80 caracteres un delimitador cual ajusta la anchura de texto de forma automática:
-  <pre>
-    "editor.rulers": [80],
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 80,
-  </pre>
-     
-  <p>
-    <img src="./.github/assets/Ctrl%2B%2C.png" alt="Configuración" width="250"/>
-    <p><em>Localización de configuración de manera interactiva</em></p>
-  </p>
-  <p>
-    <img src="./.github/assets/Edit_setting_rulers.png" alt="Rulers" width="900"/> 
-    <p><em>Resultado de búsqueda de "rulers"</em></p>
-  </p>
-  <p>
-    <img src="./.github/assets/Settings_json.png" alt="settings.json" width="900"/>
-    <p><em>settings.json tras introducir las reglas</em></p>
-  </p>
+</td>
+</tr>
+</table>
+
+Si tienes el **main.pdf** abierto para visualizar, al guardar, se puedes ver los cambios reflejados en el visor
+
+### Terminal
+```
+Ctrl + `
+```
+<table>
+<tr>
+<td align="center">
+
+<img src="./.github/assets/readme/basic_advice/Terminal.png" alt="Terminal" width="300"/><br>
+<em>Vía botón GUI</em>
+
+</td>
+</tr>
+</table> 
+
+### Snippets y utilidades de LaTeX
+```
+Ctrl + Alt + X
+```
+<table>
+<tr>
+<td align="center">
+
+<img src="./.github/assets/readme/basic_advice/Snippet_and_Utility.png" alt="Snippet_and_Utility" width="300"/><br>
+<em>Vía botón GUI</em>
+
+</td>
+</tr>
+</table> 
+
+
+### Copilot (en caso de su disposición)
+```
+Ctrl + I
+``` 
+<table>
+<tr>
+<td align="center">
+
+<img src="./.github/assets/readme/basic_advice/Inline_chat_Copilot.png" alt="Inline_chat_Copilot" width="300"/><br>
+<em>Botón derecho y seleccionar vía GUI</em>
+
+</td>
+</tr>
+</table>
+
+### Settings
+```
+Ctrl + ,
+```
+<table>
+<tr>
+<td align="center">
+
+<img src="./.github/assets/readme/basic_advice/Settings.png" alt="Settings" width="300"/><br>
+<em>Ajuste vía GUI</em>
+
+</td>
+</tr>
+</table>
+
+### Mejora visual (reglas en 80 columnas)
+
+
+Vamos a [settings](#ajuste-de-vs-code), escribimos en la barra de búsqueda **rulers**:
+<table>
+<tr>
+<td align="center">
+
+<img src="./.github/assets/readme/basic_advice/Rulers_search.png" alt="Rulers_search" width="300"/><br>
+<em>Resultado de la búsqueda</em>
+
+</td>
+</tr>
+</table>
+
+Pulsamos **Edit in settings.json**, y añadimos lo siguiente para que aparezca a la anchura de 80 caracteres un delimitador cual ajusta la anchura de texto de forma automática:
+<pre>
+  "editor.rulers": [80],
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 80,
+</pre>
+Por ejemplo, settings.json:
+<pre>
+{
+  "workbench.colorTheme": "Default Light Modern",
+  "editor.rulers": [80],
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 80,
+}
+</pre>
 
 ### Consejo extra: Copilot gratuito para estudiantes
 Al tener cuenta de estudiante, el **Copilot de Github** se puede usar gratuitamente.    
@@ -155,7 +233,7 @@ En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** 
 
 Para conectar con su cuenta de estudiante, sería ir al apartado de su perfil -> `setting` -> `Emails` y añadir tu cuenta de estudiante
 
-## Consejos avanzados (opcional)
+## Consejos avanzados
 
 - **(Opcional 1)** Para configurar la localización de los archivos de salida de compilación, pulse `Ctrl + ,` para abrir configuración y busque `Latex: Out Dir`, cambie la salida por una carpeta o una ruta donde quieras preservar los archivos. Una vez compilado el proyecto la salida se verá reflejado en dicha ruta(se usó [./build](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/build) de ejemplo). Para esta parte es recomendable que se use un fichero [`.gitignore`](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/.gitignore) para que no se guarde archivos que no le interese en el repositorio. En comparación a **Opcional 2** como se indica abajo, hay una carpeta de más, pero a la hora de compilación es más **rápido** ya que mantiene los archivos de compilación, aunque ocupe más espacio
   <p>
