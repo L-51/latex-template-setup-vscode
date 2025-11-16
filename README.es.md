@@ -30,7 +30,14 @@ Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera 
     - [Mejora visual (reglas en 80 columnas)](#mejora-visual-reglas-en-80-columnas)
     - [Consejo extra: Copilot gratuito para estudiantes](#consejo-extra-copilot-gratuito-para-estudiantes)
   - [Consejos avanzados](#consejos-avanzados)
+    - [Configuración de salida de compilación](#configuración-de-salida-de-compilación)
+    - [](#)
   - [Conectar con Git y GitHub](#conectar-con-git-y-github)
+    - [1. Instalación de **Git**](#1-instalación-de-git)
+    - [2. Configurar Git](#2-configurar-git)
+    - [3. Clona el repositorio](#3-clona-el-repositorio)
+    - [4. Accede a la carpeta](#4-accede-a-la-carpeta)
+    - [5. Utilización de Source Control](#5-utilización-de-source-control)
   - [Organización del proyecto](#organización-del-proyecto)
   - [⚠️Recomendación final:](#️recomendación-final)
   - [Contribución](#contribución)
@@ -43,11 +50,11 @@ Si quieres usar la plantilla de inmediato, sin leer todo el tutorial:
    ```bash
      git clone https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE.git
    ```
-   o con SSH:
+   o con **SSH**:
    ```bash
      git clone git@github.com:L-51/Plantilla-LaTex-para-VSCode.git
    ```
-2. Abre la carpeta en Visual Studio Code
+2. Abre la carpeta en **Visual Studio Code**
 3. Instala la extensión **LaTeX Workshop** (si no la tienes)
 4. Abre `main.tex`
 5. Pulsa `Ctrl + S` para compilar
@@ -61,11 +68,11 @@ Ante de usar la plantilla, asegúrate de tener:
 Sigue las instrucciones oficiales:
 [Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux)
 
+<img align="right" width="250" src="./.github/assets/readme/introduction/LaTeX_Extension.png" alt="Extension" />
+
 ### 2. Extensión LaTeX Workshop
 Instálala desde VS Code:  
 `Ctrl + Shift + X` -> busca LaTeX Workshop -> Instalar
-
-<img alight="left" width="250" src="./.github/assets/readme/introduction/LaTeX_Extension.png" alt="Extension" />
 
 ### 3. Paquetes de LaTeX en Linux
 
@@ -234,12 +241,21 @@ En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** 
 Para conectar con su cuenta de estudiante, sería ir al apartado de su perfil -> `setting` -> `Emails` y añadir tu cuenta de estudiante
 
 ## Consejos avanzados
+### Configuración de salida de compilación
+Vaya a [settings](#settings) y escriba en la barra de búsqueda `Latex: Out Dir`, y cambie la ruta de salida donde quieras guardar archivos cuales son resultados de la compilación:
 
-- **(Opcional 1)** Para configurar la localización de los archivos de salida de compilación, pulse `Ctrl + ,` para abrir configuración y busque `Latex: Out Dir`, cambie la salida por una carpeta o una ruta donde quieras preservar los archivos. Una vez compilado el proyecto la salida se verá reflejado en dicha ruta(se usó [./build](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/build) de ejemplo). Para esta parte es recomendable que se use un fichero [`.gitignore`](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/.gitignore) para que no se guarde archivos que no le interese en el repositorio. En comparación a **Opcional 2** como se indica abajo, hay una carpeta de más, pero a la hora de compilación es más **rápido** ya que mantiene los archivos de compilación, aunque ocupe más espacio
-  <p>
-    <img src="./.github/assets/Out_dir.png" alt="Out dir" width="1000"/>
-    <p><em>Ejemplo de establecer la salida en <a href="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/build">./build</a></em></p>
-  </p>
+<table>
+<tr>
+<td align="center">
+
+<img src="./.github/assets/readme/advance_advice/OutDir.png" alt="OutDir" width="350"/><br>
+<em>Se usó <a href="https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/build">./build</a> como ejemplo de salida</em>
+
+</td>
+</tr>
+</table>
+
+### 
   
 - **(Opcional 2)** Si accedes a ajuste sea por icono o sea por `Ctrl + ,`, y busca `LaTex Auto Build Run` le aparecerá un apartado donde se podrá elegir la opción de compilación:
   - `never` compila solo cuando lanza el comando **Build LaTeX project** manualmente (`Ctrl+Alt+B` por defecto)
@@ -311,15 +327,39 @@ Para conectar con su cuenta de estudiante, sería ir al apartado de su perfil ->
 <!--========================================================================================================-->
 
 ## Conectar con Git y GitHub
-1. Instalación de **Git**: si no lo tenían previamente instalado, `sudo apt install git -y`
-2. Configurar tu usuario y correo:<br>
-   `git config --global user.name "Tu Nombre"` <br>
-   `git config --global user.email "tuemail@dominio.com"`
-4. Accede a la carpeta donde quieras tener este proyecto guardado y clónalo escribiendo en la terminal de VSC y poner: <br>
-   `git clone https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE` <br>
-   O en su defecto descargarse el fichero zip [descargar](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/releases)
-6. Abre la carpeta usando **Open Folder** de VSC o la carpeta que te interesa para realizar _click derecho_ -> _abrir con_ -> escribir **code** -> _Enter_
-7. Para guardar los cambios en **Git** o para sincronizar con el repositorio vayase al apartado de **Source Control** o mediante atajo `Ctrl + Shift + G`, donde podrá realizar un **commit**, para recibir cambios del repositorio **pull**, o modificar el respositorio mediante **push**, en su defecto, a la hora de hacer **commit**, se puede desplegar a la derecha y emplear **Commit & Push** o **Commit & Pull**.
+### 1. Instalación de **Git**
+```
+sudo apt install git -y
+```
+### 2. Configurar Git
+<pre>
+git config --global user.name "Tu Nombre"
+git config --global user.email "tuemail@dominio.com"
+</pre>
+O mediante **SSH key**, pulsa [aquí](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) para un tutorial por parte de GitHub
+### 3. Clona el repositorio
+```
+git clone https://github.com/L-51/Plantilla-LaTex-para-VSCode.git
+```
+O con **SSH**
+```
+git clone git@github.com:L-51/Plantilla-LaTex-para-VSCode.git
+```
+O descarga el zip [template.zip](https://github.com/L-51/Plantilla-LaTex-para-VSCode/releases) en **release** y posteriormente lo descomprime.
+### 4. Accede a la carpeta 
+Usando **Open Folder** de VSC o _click derecho_ sobre la carpeta -> _abrir con_ -> escribir **code** -> _Enter_, o vía terminal con:
+<pre>
+cd Plantilla-LaTex-para-VSCode
+code Plantilla-LaTex-para-VSCode
+</pre>
+
+<img align="right" width="250" src="./.github/assets/readme/git_and_github/Source_Control.png" alt="Source_Control" />
+
+### 5. Utilización de Source Control
+Para inicializar un repositorio con **Git** o un **respositorio remoto**, se puede hacer vía terminal como lo indica este [tutorial](https://docs.github.com/en/get-started/git-basics/about-remote-repositories) de GitHub, o, mediante VS Code cual te ofrece una herramienta GUI, **Source Control**, se puede acceder mediante atajo `Ctrl + Shift + G`, o desde el explorador situado a la izquierda.
+
+Donde una vez iniciado el repositorio se podrá realizar **commit**.  
+Para repositorio remoto, **pull**(recibir cambios del remoto) y **push**(enviar cambios al remoto), a la hora de hacer **commit**, se puede desplegar a la derecha y emplear **Commit & Push** o **Commit & Pull**.
 <p>
   <img src="./.github/assets/Source_Control.png" alt="Source Control" width="300"/>
 </p>
