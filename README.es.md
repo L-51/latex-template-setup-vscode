@@ -248,7 +248,7 @@ Vaya a [settings](#settings) y escriba en la barra de búsqueda `Latex: Out Dir`
 <tr>
 <td align="center">
 
-<img src="./.github/assets/readme/advance_advice/OutDir.png" alt="OutDir" width="350"/><br>
+<img src="./.github/assets/readme/advance_advice/OutDir.png" alt="OutDir" width="370"/><br>
 <em>Se usó <a href="https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/build">./build</a> como ejemplo de salida</em>
 
 </td>
@@ -352,7 +352,7 @@ code Plantilla-LaTex-para-VSCode
 ### 4. Utilización de Source Control
 Para inicializar un repositorio con **Git** o un **respositorio remoto**, se puede hacer vía terminal como lo indica este [tutorial](https://docs.github.com/en/get-started/git-basics/about-remote-repositories) de GitHub, o, mediante VS Code cual te ofrece una herramienta GUI, **Source Control**, se puede acceder mediante atajo `Ctrl + Shift + G`, o desde el explorador situado a la izquierda.
 
-<img align="left" width="250" src="./.github/assets/readme/git_and_github/Pull_Push_Combined.png" alt="Pull_Push_Combined" />
+<img align="left" width="300" src="./.github/assets/readme/git_and_github/Pull_Push_Combined.png" alt="Pull_Push_Combined" />
 
 Donde una vez iniciado el repositorio se podrá realizar **commit** utilizando el **Source Control**.  
 Para repositorio remoto, **pull**(recibir cambios del remoto) y **push**(enviar cambios al remoto), a la hora de hacer **commit**, se puede desplegar a la derecha y emplear **Commit & Push** o **Commit & Pull**.  
