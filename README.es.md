@@ -50,7 +50,7 @@ Si quieres usar la plantilla de inmediato, sin leer todo el tutorial:
 Ante de usar la plantilla, asegúrate de tener:
 ### 1. Visual Studio Code instalado
 <p align="right" style="padding-right: 210px;">
-  <img width="160" src="./.github/assets/LaTeX_Extension.png" alt="Extension" />
+  <img align="right" width="160" src="./.github/assets/LaTeX_Extension.png" alt="Extension" />
 </p>
 
 Sigue las instrucciones oficiales:
