@@ -1,6 +1,6 @@
 # Additional information
 Aquí se adjunta enlaces que son interesantes.
-## Documentación y tutoriales
+## Documentación y tutoriales LaTeX
 ### [Documentación de LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
 Este es el repositorio junto con la documentación del autor de la extensión en la cuál se basa este proyecto.
 > Como información adicional
@@ -8,6 +8,10 @@ Este es el repositorio junto con la documentación del autor de la extensión en
 ### [Manual sencillo de LaTeX](https://manualdelatex.com/tutoriales)
 Tutorial para aprender a escribir en LaTeX, con muy buena documentación y un encubrimiento amplio para una persona que recién comienza LaTeX, disponible en español
 > Muy útil para conocer sentencias de LaTeX
+
+### [Escritura básica de Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+Tutorial para aprender a como escribir en **Markdown**, muy útil dado que los repositorio de **GitHub** usa documentación en Markdown.
+> Introducción sencilla para aprender a escribir en Markdown
 
 ### [Plantillas de LosDelGIIM](https://github.com/LosDelDGIIM/LosDelDGIIM.github.io/tree/main/subjects/plantillas)
 Ejemplos de plantillas cuales se usan para un proyecto de apuntes, tales como para subir exámenes, temario, etc.
@@ -35,6 +39,5 @@ Emblemas para añadir a tu repositorio, para hacerlo más visual y atractivo.
 ### [Personalizar badges](https://custom-icon-badges.demolab.com/)
 Te permite realizar emblemas para tu repositorio de forma personalizada
 > Útil si quieres hacer que tu repositorio mejore visualmente pero con un toque personal
-
 
 [**(🔙README)**](../../README.es.md#requisito-previo)
