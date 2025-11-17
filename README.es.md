@@ -24,8 +24,8 @@ Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera 
 - Tener instalado **Visual Studio Code**
 - Tener instalado la extensión de **LaTeX Workshop** de _James Yu_
 - Tener instalado los **paquetes** de LaTeX
-
-En caso de faltar algún requisito, pulse [aquí](/docs/vscode-related-tutorial/translation/setup.es.md).
+> [!NOTE]
+> En caso de faltar algún requisito, pulse [aquí](/docs/vscode-related-tutorial/translation/setup.es.md).
 <!--==Inicio Rápido=========================================================================================-->
 ## Inicio Rápido
 1. **Clona el repositorio**
