@@ -11,21 +11,25 @@ Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera 
 
 <!--==Tabla de contenido====================================================================================-->
 ## Tabla de contenido
-- [Introducción](#introducción)
-- [Tabla de contenido](#tabla-de-contenido)
-- [Inicio Rápido](#inicio-rápido)
-- [Instalación y configuración de LaTeX en VS Code (Linux)](#instalación-y-configuración-de-latex-en-vs-code-linux)
-- [Estructura de la plantilla](#estructura-de-la-plantilla)
-- [Consejos básicos](#consejos-básicos)
-- [Consejos avanzados](#consejos-avanzados)
-- [Conectar con Git y GitHub](#conectar-con-git-y-github)
-- [Organización del proyecto](#organización-del-proyecto)
-- [Contribución](#contribución)
-- [Recursos adicionales](#recursos-adicionales)
+- [Configuración y plantilla modular de LaTeX en Visual Studio Code](#configuración-y-plantilla-modular-de-latex-en-visual-studio-code)
+  - [Introducción](#introducción)
+  - [Tabla de contenido](#tabla-de-contenido)
+  - [Requisito previo](#requisito-previo)
+  - [Inicio Rápido](#inicio-rápido)
+  - [Estructura de la plantilla](#estructura-de-la-plantilla)
+  - [Organización del proyecto](#organización-del-proyecto)
+  - [Siguientes pasos](#siguientes-pasos)
+    - [Material adicionales](#material-adicionales)
 
+<!--==Requisito previo======================================================================================-->
+## Requisito previo
+- Tener instalado **Visual Studio Code**
+- Tener instalado la extensión de **LaTeX Workshop** de _James Yu_
+- Tener instalado los **paquetes** de LaTeX
+
+En caso de faltar algún requisito, pulse [aquí](/docs/vscode-related-tutorial/translation/setup.es.md).
 <!--==Inicio Rápido=========================================================================================-->
 ## Inicio Rápido
-Si quieres usar la plantilla de inmediato, sin leer todo el tutorial:
 1. **Clona el repositorio**
    ```bash
      git clone https://github.com/L-51/Plantilla-LaTex-para-VSCode.git
@@ -36,375 +40,50 @@ Si quieres usar la plantilla de inmediato, sin leer todo el tutorial:
    ```
 2. Abre la carpeta en **Visual Studio Code**
 3. Instala la extensión **LaTeX Workshop** (si no la tienes)
-4. Abre `main.tex`
-5. Pulsa `Ctrl + S` para compilar
-6. Edita las secciones en `template/secciones/`
+4. Abre `main.tex` para localizar el main
+5. `Ctrl + S` para compilar
+6. Editar las diferentes secciones en `template/secciones/`
 > Y... ¡Listo! Ya estás trabajando con la plantilla
-
-<!--==Instalación y configuración de LaTeX en VS Code (Linux)===============================================-->
-## Instalación y configuración de LaTeX en VS Code (Linux)
-Ante de usar la plantilla, asegúrate de tener:
-### 1. Visual Studio Code instalado
-
-<img align="right" width="250" src="./.github/assets/readme/intro/LaTeX_Extension.png" alt="Extension" />
-
-Sigue las instrucciones oficiales:
-[Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux)
-
-### 2. Extensión LaTeX Workshop
-Instálala desde VS Code:  
-`Ctrl + Shift + X` -> busca LaTeX Workshop -> Instalar
-
-### 3. Paquetes de LaTeX en Linux
-
-Ejecuta en la terminal, en VS Code también dispone de un [terminal integrado](#terminal):
-```bash
-sudo apt install texlive-full -y
-```
-
-Esto instala todo lo necesario para compilar localmente.
   
 <!--==Estructura de la plantilla============================================================================-->
 ## Estructura de la plantilla
 ```bash
-📁Plantilla-de-LaTeX-para-VSCode
-├── .md
-└── 📁template
-    ├── 📁bibliografia
-    │   └── 📚ref.bib
-    ├── 📁config
-    │   ├── ⚙️settings.tex
-    │   └── 📄packages.tex
-    ├── 📁ficheros
-    ├── 📄.gitignore
-    ├── 📁images
-    │   └── 🖼️Example.png
-    ├── 📄main.tex
-    ├── 📁portadas
-    │   └── 📄portada_ejemplo.tex
-    └── 📁secciones
-        ├── 📄ejercicio_1.tex
-        ├── 📄ejercicio_2.tex
-        └── 📄ejercicio_3.tex
+📁template
+├── 📁bibliografia
+│   └── 📚ref.bib
+├── 📁config
+│   ├── ⚙️settings.tex
+│   └── 📄packages.tex
+├── 📁files
+│   └── 📄example.cpp
+├── 📄.gitignore
+├── 📁images
+│   └── 🖼️Example.png
+├── 📄main.tex
+├── 📁portadas
+│   └── 📄portada_ejemplo.tex
+└── 📁secciones
+    ├── 📄ejercicio_1.tex
+    ├── 📄ejercicio_2.tex
+    └── 📄ejercicio_3.tex
 ```
-[(Volver arriba)](#tabla-de-contenido)
-
-<!--==Consejos básicos======================================================================================-->
-## Consejos básicos  
-### Compilar/Guardar
-```
-Ctrl + S
-```
-<table>
-<tr>
-<td align="center">
-
-<img src="./.github/assets/readme/basic/Save.png" alt="Save" width="250"/><br>
-<em>Vía botón GUI</em>
-
-</td>
-</tr>
-</table>
-
-### Visualizar PDF
-```
-Ctrl + Alt + V
-```
-<table>
-<tr>
-<td align="center">
-
-<img src="./.github/assets/readme/basic/Visualise.png" alt="Visualise" width="220"/><br>
-<em>Vía botón GUI</em>
-
-</td>
-</tr>
-</table>
-
-Si tienes el **main.pdf** abierto para visualizar, al guardar, se puedes ver los cambios reflejados en el visor
-
-### Terminal
-```
-Ctrl + `
-```
-<table>
-<tr>
-<td align="center">
-
-<img src="./.github/assets/readme/basic/Terminal.png" alt="Terminal" width="300"/><br>
-<em>Vía botón GUI</em>
-
-</td>
-</tr>
-</table> 
-
-### Snippets y utilidades de LaTeX
-```
-Ctrl + Alt + X
-```
-<table>
-<tr>
-<td align="center">
-
-<img src="./.github/assets/readme/basic/Snippet_and_Utility.png" alt="Snippet_and_Utility" width="300"/><br>
-<em>Vía botón GUI</em>
-
-</td>
-</tr>
-</table> 
-
-
-### Copilot (en caso de su disposición)
-```
-Ctrl + I
-``` 
-<table>
-<tr>
-<td align="center">
-
-<img src="./.github/assets/readme/basic/Inline_chat_Copilot.png" alt="Inline_chat_Copilot" width="300"/><br>
-<em>Botón derecho y seleccionar vía GUI</em>
-
-</td>
-</tr>
-</table>
-
-### Settings
-```
-Ctrl + ,
-```
-<table>
-<tr>
-<td align="center">
-
-<img src="./.github/assets/readme/basic/Settings.png" alt="Settings" width="300"/><br>
-<em>Ajuste vía GUI</em>
-
-</td>
-</tr>
-</table>
-
-### Mejora visual (reglas en 80 columnas)
-
-
-Vamos a [settings](#ajuste-de-vs-code), escribimos en la barra de búsqueda **rulers**:
-<table>
-<tr>
-<td align="center">
-
-<img src="./.github/assets/readme/basic/Rulers_search.png" alt="Rulers_search" width="300"/><br>
-<em>Resultado de la búsqueda</em>
-
-</td>
-</tr>
-</table>
-
-Pulsamos **Edit in settings.json**, y añadimos lo siguiente para que aparezca a la anchura de 80 caracteres un delimitador cual ajusta la anchura de texto de forma automática:
-<pre>
-  "editor.rulers": [80],
-  "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 80,
-</pre>
-Por ejemplo, settings.json:
-<pre>
-{
-  "workbench.colorTheme": "Default Light Modern",
-  "editor.rulers": [80],
-  "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 80,
-}
-</pre>
-
-### Consejo extra: Copilot gratuito para estudiantes
-Al tener cuenta de estudiante, el **Copilot de Github** se puede usar gratuitamente.    
-
-En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** en el apartado de extensiones como previamente se indicó.  
-
-Para conectar con su cuenta de estudiante, sería ir al apartado de su perfil -> `setting` -> `Emails` y añadir tu cuenta de estudiante
-
-### ⚠️ Trabajando de forma cooperativo
-Si tienes **poco** manejo a la hora de usar GitHub para trabajar con varios usuarios, pensando de cara a una mayor comodidad, se **recomienda separar de forma explícita los ficheros** donde trabajarán cada uno de ellos, y **evitar en la medida de lo posible modificar ficheros no correspondido** de forma accidental.
-
-[(Volver arriba)](#tabla-de-contenido)
-
-<!--==Consejos avanzados=================================================================================-->
-## Consejos avanzados
-### Configuración de salida de compilación
-Vaya a [settings](#settings) y escriba en la barra de búsqueda `Latex: Out Dir`, y cambie la ruta de salida donde quieras guardar archivos cuales son resultados de la compilación:
-
-<img src="./.github/assets/readme/advanced/OutDir.png" alt="OutDir" width="370"/>
-
-<img align="right" width="330" src="./.github/assets/readme/advanced/autoBuild.png" alt="Auto Build">
-
-### autoBuild y autoClean
-Accediendo a [settings](#settings), y buscar `LaTex Auto Build Run` le aparecerá un apartado donde se podrá elegir la opción de compilación:
-  - `never` compila solo cuando lanza el comando **Build LaTeX project** manualmente (`Ctrl+Alt+B` por defecto)
-  - `onSave` compila solo cuando **guardas el archivo** (`Ctrl+S`), más recomendable para tener un mejor control de la compilación
-  - `onFileChange` compila automáticamente cada vez que **detecta un cambio en el archivo** (aunque no lo guardes)
-
-<img align="right" width="330" src="./.github/assets/readme/advanced/autoClean.png" alt="Auto Clean">
-
-Y al buscar `LaTex Auto Clean Run`, también dispone de opciones:
-  - `onBuilt` limpia después de **cada compilación**
-  - `onFailed` limpia solo si la **compilación falla**
-  - `onSucceeded` limpia solo si **compilación fue exitosa**
-  - `never` limpia solo cuando lanza el comando **LaTeX Workshop: Clean up auxiliary files** (lo puedes buscar con `Ctrl+Shift+P`)
-
-O se puede añadir manualmente al final de [**settings.json**](#mejora-visual-reglas-en-80-columnas) las siguientes líneas:
-<pre>
-"latex-workshop.latex.autoBuild.run": "onSave",
-"latex-workshop.latex.autoClean.run": "never",
-</pre>
-Siendo en este ejemplo, la opción `onSave` para autoBuild y `never` para autoClean.
-
-### Eliminar archivos auxiliares
-Para eliminar los archivos auxiliares de compilación manteniendo solo el `main.pdf`, hay que indicar que tipo de archivos se debe borrar en el apartado de [settings](#settings) -> `Clean: File Types`.
-
-<img width="400" src="./.github/assets/readme/advanced/cleanfileTypes.png">
-
-Posteriormente en [settings](#settings) -> `Clean: Method` se presenta varias opciones:
-- `glob` busca los archivos en todas las carpetas siguiendo patrones definido en `Clean: File Types`
-- `command` borra según lo que se definió en `Clean: Command`  
-
-<img width="400" src="./.github/assets/readme/advanced/cleanMethod.png">
-
-En nuestro caso, elegimos la opción **glob** o en su efecto añadiendo al archivo [**settings.json**](#mejora-visual-reglas-en-80-columnas) añadir al final de ella.  
-Esto es un ejemplo de una configuración donde se borraría todos los archivos temporales menos el `main.pdf`:
-<pre>
-"latex-workshop.latex.autoBuild.run": "onSave",
-"latex-workshop.latex.autoClean.run": "onBuilt",
-"latex-workshop.latex.clean.fileTypes": [
-    "*.aux",
-    "*.bbl",
-    "*.bcf",
-    "*.blg",
-    "*.idx",
-    "*.ilg",
-    "*.ind",
-    "*.lof",
-    "*.lot",
-    "*.out",
-    "*.toc",
-    "*.acn",
-    "*.acr",
-    "*.alg",
-    "*.glg",
-    "*.glo",
-    "*.gls",
-    "*.fls",
-    "*.log",
-    "*.fdb_latexmk",
-    "*.snm",
-    "*.synctex(busy)",
-    "*.synctex.gz(busy)",
-    "*.nav",
-    "*.vrb",
-    "*.run.xml",
-    "*.synctex.gz"
-],
-"latex-workshop.latex.clean.method": "glob",
-</pre>
-Aunque es interesante destacar que, a cambio de **limpieza**, obtiene una **inconveniencia de tiempo** y [visualizar](#visualizar-pdf) en tiempo real más tardado, ya que en cada guardado se tendría que **compilar** todo de nuevo y generar de vuelta todos los archivos temporales
-
-### Creación de Snippets propios
-
-<img align="left" width="270" src="./.github/assets/readme/advanced/configure_Snippets.png">
-
-Son fragmentos de código predefinidos que puedes **insertar con un atajo o completado automático**.  
-Puedes crear tus propios _snippets_ personalizados para escribir LaTeX más rápido.  
-En VS Code para configurarlos: `Ctrl + Shift + P` -> Snippets: Configure Snippets -> Eliges **local o global**
-<img width="400" src="./.github/assets/readme/advanced/snippets_file_option.png">
-
-Un ejemplo de snippet sería:
-<pre>
-{
-  "Theorem and Proof": {
-    "prefix": "theoremproof",
-    "body": [
-      "\\begin{theorem}",
-      "    ${1:Statement of the theorem}",
-      "\\end{theorem}",
-      "",
-      "\\begin{proof}",
-      "    ${2:Proof of the theorem}",
-      "\\end{proof}"
-    ],
-    "description": "Snippet for theorem and proof in LaTeX"
-  }
-}
-</pre>
-- `"prefix"` lo que escribes para activar el snippet
-- `"body"` el contenido que se inserta
-- `$i`, *i: número*,  indica dónde estará el cursor después de insertar, y se desplaza tabulando
-- `"description"` descripción opcional
-
-[(Volver arriba)](#tabla-de-contenido)
-
-<!--==Git y GitHub=======================================================================================-->
-## Conectar con Git y GitHub
-### 1. Instalación de **Git**
-```
-sudo apt install git -y
-```
-### 2. Clona el repositorio
-```
-git clone https://github.com/L-51/Plantilla-LaTex-para-VSCode.git
-```
-O con **SSH**
-```
-git clone git@github.com:L-51/Plantilla-LaTex-para-VSCode.git
-```
-O descarga el zip [template.zip](https://github.com/L-51/Plantilla-LaTex-para-VSCode/releases) en **release** y posteriormente lo descomprime.
-### 3. Accede a la carpeta 
-Usando _file_ -> **Open Folder** de VSC o _click derecho_ sobre la **carpeta** -> _abrir con_ -> buscar **VS Code** -> _Enter_, o vía terminal con:
-<pre>
-cd Plantilla-LaTex-para-VSCode
-code Plantilla-LaTex-para-VSCode
-</pre>
-
-<img align="right" width="250" src="./.github/assets/readme/git/Source_Control.png" alt="Source_Control" />
-
-### 4. Utilización de Source Control
-Para inicializar un repositorio con **Git** o un **respositorio remoto**, se puede hacer vía terminal como lo indica este [tutorial](https://docs.github.com/en/get-started/git-basics/about-remote-repositories) de GitHub, o, mediante VS Code cual te ofrece una herramienta GUI, **Source Control**, se puede acceder mediante atajo `Ctrl + Shift + G`, o desde el explorador situado a la izquierda.
-
-<img align="left" width="300" src="./.github/assets/readme/git/Pull_Push_Combined.png" alt="Pull_Push_Combined" />
-
-Donde una vez iniciado el repositorio se podrá realizar **commit** utilizando el **Source Control**.  
-Para repositorio remoto, **pull**(recibir cambios del remoto) y **push**(enviar cambios al remoto), a la hora de hacer **commit**, se puede desplegar a la derecha y emplear **Commit & Push** o **Commit & Pull**.  
-Aunque aún se puede reliazar todos estos comandos a lo tradicional via terminal, VS Code ofrece una herramienta que facilita esta tarea.
-
-[(Volver arriba)](#tabla-de-contenido)
 
 <!--==Organización del proyecto============================================================================-->
 ## Organización del proyecto
-- [**bibliography**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/bibliography) Aquí guardará las referencias en el fichero [ref.bib](https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/main/template/bibliografia/ref.bib)
-- [**config**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/config) Aquí están los [packages](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/config/packages.tex) que usarás y [settings](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/config/settings.tex) que se aplica de forma general al proyecto
-- [**sections**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/sections) Esta carpeta contendrá las distintas secciones que forman parte del trabajo
-- [**images**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/tree/main/template/images) Carpeta de las imágenes que se usarán para el proyecto
-- [**title_pages**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/main/template/title_pages) Esta carpeta contiene las portadas del trabajo en formato LaTeX
-- [**main.tex**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/main/template/main.tex) El main donde se incluirá todo, se indica al principio de esta `% !TeX root = main.tex`
+- [**bibliography**](./template/bibliography/): Aquí guardará las referencias y bibliografías en el fichero [ref.bib](./template/bibliografia/ref.bib).
+- [**build**](./template/build/): Carpeta para ficheros salida de la compilación, recomendable para una mayor limpieza, para establecerlo pinchar [aquí](./docs/vscode-related-tutorial/translation/advanced.es.md#configuración-de-salida-de-compilación).
+- [**config**](./template/config/): Aquí están los [paquetes](./template/config/packages.tex) que usarás en _package.tex_ y [configuraciones](./template/config/settings.tex) en _settings.tex_ que se aplica de forma general al proyecto.
+- [**images**](./template/images/): Carpeta de las imágenes que se usarán para el proyecto.
+- [**main.tex**](./template/main.tex): El main donde se incluirá todo, se indica al principio de esta `% !TeX root = main.tex`, y es el archivo donde se compilará y se resolverá las dependencias, etc.
+- [**sections**](./template/sections/): Esta carpeta contendrá las distintas secciones que forman parte del trabajo, para una mejor organización.
+- [**title_pages**](./template/title_pages/): Esta carpeta contiene las portadas del trabajo.
+- [**.gitignore**](/template/.gitignore): Se incluye un archivo `.gitignore` para no incluir archivos en control de versiones, en este caso es una versión simple para obviar los ficheros de compilación en caso de haber configurado como salida **build** y mantener solo **main.pdf**, en [recopilación de enlaces sobre Git](/docs/additional-material/additional-material.es.md#enlaces-útiles-sobre-git) incluye un tutorial sobre esto.
 
-[(Volver arriba)](#tabla-de-contenido)
+<!--==Siguientes pasos======================================================================================-->
+## Siguientes pasos
+- Si quieres aprender y empezar a usar **Git** y conocer sobre las herramientas _GUI_ que ofrece **VS Code**, te recomiendo que mires esta [guía sobre Git con VS Code](./docs/vscode-related-tutorial/translation/git-guide-with-vscode.es.md)
+- Si quieres saber unos atajos y consejos básicos y sencillos, mira este [documento](./docs/vscode-related-tutorial/translation/vscode-tips.es.md) para agilizar y facilitar el uso de LaTeX en VS Code
+- Posteriormente si aún quieres profundizar más sobre **configuraciones** y controlar de forma más profesional LaTeX, te sugiero mirar estos [consejos avanzados](./docs/vscode-related-tutorial/translation/advanced.es.md).
 
-<!--==Contribución==========================================================================================-->
-## Contribución
-Para contribuir, consulta las [pautas de contribución](./.github/CONTRIBUTING.es.md)
-
-[(Volver arriba)](#tabla-de-contenido)
-
-<!--==Recursos adicionales==================================================================================-->
-## Recursos adicionales
-
-### Documentación y tutoriales
-- [Documentación de LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
-- [Manual sencillo de LaTeX](https://manualdelatex.com/tutoriales)
-- [Plantillas de LosDelGIIM](https://github.com/LosDelDGIIM/LosDelGIIM.github.io/tree/main/subjects/_plantillas)
-
-### Git y GitHub
-- [Primer Pull Request](https://github.blog/developer-skills/github/beginners-guide-to-github-creating-a-pull-request/)
-- [Generar SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-- [Enlaces útiles sobre Git](https://github.com/firstcontributions/first-contributions/blob/main/docs/additional-material/git_workflow_scenarios/Useful-links-for-further-learning.md)
-
-### Badges
-- [Badges para README](https://github.com/inttter/md-badges)
-- [Más badges para README](https://github.com/Ileriayo/markdown-badges)
+<!--==Material adicional====================================================================================-->
+### [Material adicionales](./docs/additional-material/additional-material.es.md)

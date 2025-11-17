@@ -1,10 +1,14 @@
 # Guide: Setting up LaTeX in Visual Studio Code with a modular project template (Linux)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
-![VSCode](https://img.shields.io/badge/Editor-VSCode-blue?logo=visual-studio-code)
+[![License: MIT](https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law)](./LICENSE)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=F0F0F0)
+![VSCode](https://custom-icon-badges.demolab.com/badge/vscode-F3FFFF?logo=vscode)
+![LaTeX](https://img.shields.io/badge/LaTeX-00A0A0?logo=latex&logoColor=fff)
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](README.en.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
+
 > LaTeX modular template and setup tutorial for Visual Studio Code (Linux)
 
 > Plantilla modular y tutorial de configuración de LaTeX en VS Code para Linux
@@ -57,7 +61,7 @@ Por favor, lean las [pautas de contribución](.github/CONTRIBUTING.es.md) antes 
 > If you feel this repository useful, don't forget to leave a ⭐!  
 > Si te resulta útil este repositorio, ¡no olvides dejar una ⭐!
 
----
 <!--==License============================================================================================-->
+## License
 <p><em>This project is licensed under the <a href="https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/docs/LICENSE" target="_blank">MIT</a></p>
 <p><em>Este proyecto esta licenciado bajo <a href="https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/docs/LICENSE" target="_blank">MIT</a></p>
