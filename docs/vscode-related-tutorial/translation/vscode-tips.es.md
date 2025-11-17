@@ -125,9 +125,9 @@ Por ejemplo, settings.json:
 </pre>
 
 ## Consejo extra: Copilot gratuito para estudiantes
-Al tener cuenta de estudiante, el **Copilot d./..e Github** se puede usar gratuitamente.    
+Al tener cuenta de estudiante, el **Copilot de Github** se puede usar gratuitamente.    
 
-En caso de querer usarlo, instalar ./..**Github Copilot** y ./..**Github Copilot Chat** en el apartado de extensiones como previamente se indicó.  
+En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** en el apartado de extensiones como previamente se indicó.  
 
 Para conectar con su cuenta de estudiante, sería ir al apartado de su perfil -> `setting` -> `Emails` y añadir tu cuenta de estudiante
 
