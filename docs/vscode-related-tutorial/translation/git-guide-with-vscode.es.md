@@ -56,4 +56,5 @@ Donde una vez iniciado el repositorio se podrá realizar **commit** utilizando e
 Para repositorio remoto, **pull**(recibir cambios del remoto) y **push**(enviar cambios al remoto), a la hora de hacer **commit**, se puede desplegar a la derecha y emplear **Commit & Push** o **Commit & Pull**.  
 Aunque aún se puede reliazar todos estos comandos a lo tradicional via terminal, VS Code ofrece una herramienta que facilita esta tarea.
 
+<br>
 [**(🔙README)**](/README.es.md#tabla-de-contenido)
