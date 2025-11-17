@@ -11,14 +11,22 @@ Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera 
 
 <!--==Tabla de contenido====================================================================================-->
 ## Tabla de contenido
-- [Introducción](#introducción)
-- [Tabla de contenido](#tabla-de-contenido)
-- [Requisito previo](#requisito-previo)
-- [Inicio Rápido](#inicio-rápido)
-- [Estructura de la plantilla](#estructura-de-la-plantilla)
-- [Organización del proyecto](#organización-del-proyecto)
-- [Siguientes pasos](#siguientes-pasos)
-- [Material adicionales](#material-adicionales)
+- [Configuración y plantilla modular de LaTeX en Visual Studio Code](#configuración-y-plantilla-modular-de-latex-en-visual-studio-code)
+  - [Introducción](#introducción)
+  - [Tabla de contenido](#tabla-de-contenido)
+  - [Requisito previo](#requisito-previo)
+  - [Inicio Rápido](#inicio-rápido)
+  - [Estructura de la plantilla](#estructura-de-la-plantilla)
+      - [**bibliography**](#bibliography)
+      - [**build**](#build)
+      - [**config**](#config)
+      - [**images**](#images)
+      - [**main.tex**](#maintex)
+      - [**sections**](#sections)
+      - [**title\_pages**](#title_pages)
+      - [**.gitignore**](#gitignore)
+  - [Siguientes pasos](#siguientes-pasos)
+    - [Material adicionales](#material-adicionales)
 
 <!--==Requisito previo======================================================================================-->
 ## Requisito previo
@@ -67,16 +75,22 @@ En caso de faltar algún requisito, pulse [aquí](/docs/vscode-related-tutorial/
     └── 📄ejercicio_3.tex
 </pre>
 
-<!--==Organización del proyecto============================================================================-->
-## Organización del proyecto
-#### [**bibliography**](./template/bibliography/): Aquí guardará las referencias y bibliografías en el fichero [ref.bib](./template/bibliografia/ref.bib).
-#### [**build**](./template/build/): Carpeta para ficheros salida de la compilación, recomendable para una mayor limpieza, para establecerlo pinchar [aquí](./docs/vscode-related-tutorial/translation/advanced.es.md#configuración-de-salida-de-compilación).
-#### [**config**](./template/config/): Aquí están los [paquetes](./template/config/packages.tex) que usarás en _package.tex_ y [configuraciones](./template/config/settings.tex) en _settings.tex_ que se aplica de forma general al proyecto.
-#### [**images**](./template/images/): Carpeta de las imágenes que se usarán para el proyecto.
-#### [**main.tex**](./template/main.tex): El main donde se incluirá todo, se indica al principio de esta `% !TeX root = main.tex`, y es el archivo donde se compilará y se resolverá las dependencias, etc.
-#### [**sections**](./template/sections/): Esta carpeta contendrá las distintas secciones que forman parte del trabajo, para una mejor organización.
-#### [**title_pages**](./template/title_pages/): Esta carpeta contiene las portadas del trabajo.
-#### [**.gitignore**](/template/.gitignore): Se incluye un archivo `.gitignore` para no incluir archivos en control de versiones, en este caso es una versión simple para obviar los ficheros de compilación en caso de haber configurado como salida **build** y mantener solo **main.pdf**, en [recopilación de enlaces sobre Git](/docs/additional-material/additional-material.es.md#enlaces-útiles-sobre-git) incluye un tutorial sobre esto.
+#### [**bibliography**](./template/bibliography/)
+> Aquí guardará las referencias y bibliografías en el fichero [ref.bib](./template/bibliografia/ref.bib).
+#### [**build**](./template/build/)
+> Carpeta para ficheros salida de la compilación, recomendable para una mayor limpieza, para establecerlo pinchar [aquí](./docs/vscode-related-tutorial/translation/advanced.es.md#configuración-de-salida-de-compilación).
+#### [**config**](./template/config/)
+>  Aquí están los [paquetes](./template/config/packages.tex) que usarás en _package.tex_ y [configuraciones](./template/config/settings.tex) en _settings.tex_ que se aplica de forma general al proyecto.
+#### [**images**](./template/images/)
+> Carpeta de las imágenes que se usarán para el proyecto.
+#### [**main.tex**](./template/main.tex)
+> El main donde se incluirá todo, se indica al principio de esta `% !TeX root = main.tex`, y es el archivo donde se compilará y se resolverá las dependencias, etc.
+#### [**sections**](./template/sections/)
+> Esta carpeta contendrá las distintas secciones que forman parte del trabajo, para una mejor organización.
+#### [**title_pages**](./template/title_pages/)
+> Esta carpeta contiene las portadas del trabajo.
+#### [**.gitignore**](/template/.gitignore)
+> Se incluye un archivo `.gitignore` para no incluir archivos en control de versiones, en este caso es una versión simple para obviar los ficheros de compilación en caso de haber configurado como salida **build** y mantener solo **main.pdf**, en [recopilación de enlaces sobre Git](/docs/additional-material/additional-material.es.md#enlaces-útiles-sobre-git) incluye un tutorial sobre esto.
 
 <!--==Siguientes pasos======================================================================================-->
 ## Siguientes pasos
