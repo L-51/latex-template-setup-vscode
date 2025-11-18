@@ -9,7 +9,7 @@
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](README.en.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
 
-> LaTeX modular template and setup tutorial for Visual Studio Code 
+> LaTeX modular template and setup tutorial for Visual Studio Code  
 > Plantilla modular y tutorial de configuración de LaTeX en VS Code 
 
 <!--==Introduction=======================================================================================-->
