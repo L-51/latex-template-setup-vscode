@@ -63,5 +63,5 @@ Por favor, lean las [pautas de contribución](.github/CONTRIBUTING.es.md) antes 
 
 <!--==License============================================================================================-->
 ## License
-<p><em>This project is licensed under the <a href="https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/docs/LICENSE" target="_blank">MIT</a></p>
-<p><em>Este proyecto esta licenciado bajo <a href="https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/docs/LICENSE" target="_blank">MIT</a></p>
+<p><em>This project is licensed under the <a href="https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/docs/LICENSE" target="_blank">MIT</a></em></p>
+<p><em>Este proyecto esta licenciado bajo <a href="https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/docs/LICENSE" target="_blank">MIT</a></em></p>
