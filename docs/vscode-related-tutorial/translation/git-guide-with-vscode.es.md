@@ -16,8 +16,8 @@ sudo apt install git -y
 <summary> <b>Windows</b> </summary>
 
 ### Windows
-Instala según la [guía oficial](https://git-scm.com/install/windows) de Git.  
-Se recomienda mantener la opción por defecto de `Git from the command line and also from 3rd-party software` para poder trabajar con la terminal de _PowerShell_ o _CMD_
+Instala siguiendo la [guía oficial](https://git-scm.com/install/windows) de Git.  
+Se recomienda mantener la opción por defecto `Git from the command line and also from 3rd-party software` para poder trabajar con la terminal de _PowerShell_ o _CMD_.
 
 </details>
 
@@ -25,7 +25,7 @@ Se recomienda mantener la opción por defecto de `Git from the command line and 
 <summary> <b>macOS</b> </summary>
 
 ### macOS
-Seguir las instrucciones del [tutorial oficial](https://git-scm.com/install/mac) de Git.
+Sigue las instrucciones del [tutorial oficial](https://git-scm.com/install/mac) de Git.
 
 </details>
 
@@ -37,9 +37,11 @@ O con **SSH**
 ```
 git clone git@github.com:L-51/Plantilla-LaTex-para-VSCode.git
 ```
-O descarga el zip [**template.zip**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/releases) en **release** y posteriormente lo descomprime.
+O descarga el zip [**template.zip**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/releases) en **Release** y descomprímelo.
+
 ## 3. Accede a la carpeta 
-Usando _File_ -> **Open Folder** de VSC o _click derecho_ sobre la **carpeta template** -> _abrir con_ -> buscar **VS Code** -> _Enter_, o vía terminal(si dispone) con:
+Usando _File_ -> **Open Folder** de VSC, o _clic derecho_ sobre la **carpeta template** -> _abrir con_ -> **VS Code**, o vía terminal (si dispones de ella):
+
 <pre>
 cd Plantilla-LaTex-para-VSCode
 code template
@@ -48,13 +50,13 @@ code template
 <img align="right" width="250" src="/.github/assets/readme/git/Source_Control.png" alt="Source_Control" />
 
 ## 4. Utilización de Source Control
-Para inicializar un repositorio con **Git** o un **respositorio remoto**, se puede hacer vía terminal como lo indica este [tutorial](https://docs.github.com/es/get-started/git-basics/about-remote-repositories) de GitHub, o, mediante VS Code cual te ofrece una herramienta GUI, **Source Control**, se puede acceder mediante atajo `Ctrl + Shift + G`, o desde el explorador situado a la izquierda.
-
+Para inicializar un repositorio con **Git** o un **repositorio remoto**, puedes hacerlo vía terminal como indica este [tutorial](https://docs.github.com/es/get-started/git-basics/about-remote-repositories), o mediante la herramienta GUI de VS Code: **Source Control** (`Ctrl + Shift + G`).
 <img align="left" width="300" src="/.github/assets/readme/git/Pull_Push_Combined.png" alt="Pull_Push_Combined" />
 
-Donde una vez iniciado el repositorio se podrá realizar **commit** utilizando el **Source Control**.  
-Para repositorio remoto, **pull**(recibir cambios del remoto) y **push**(enviar cambios al remoto), a la hora de hacer **commit**, se puede desplegar a la derecha y emplear **Commit & Push** o **Commit & Pull**.  
-Aunque aún se puede reliazar todos estos comandos a lo tradicional via terminal, VS Code ofrece una herramienta que facilita esta tarea.
+Una vez iniciado el repositorio, podrás realizar **commits** desde **Source Control**.  
+Para repositorios remotos se pueden hacer **pull** (recibir cambios) y **push** (enviar cambios).  
+También se puede usar **Commit & Push** o **Commit & Pull**.  
+Aunque aún puedes realizar todas estas acciones desde terminal, VS Code ofrece una herramienta que facilita estas tareas.
 
 <br>
 

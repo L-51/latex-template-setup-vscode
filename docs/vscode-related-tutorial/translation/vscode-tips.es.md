@@ -1,5 +1,6 @@
 # Consejos básicos
 > Consejos y atajos para VS Code a la hora de hacer un proyecto en LaTeX
+
 ## Compilar/Guardar
 ```
 Ctrl + S
@@ -30,7 +31,7 @@ Ctrl + Alt + V
 </tr>
 </table>
 
-Si tienes el **main.pdf** abierto para visualizar, al guardar, se puedes ver los cambios reflejados en el visor
+Si tienes el **main.pdf** abierto para visualizar, al guardar se pueden ver los cambios reflejados en el visor.
 
 ## Terminal
 ```
@@ -108,13 +109,14 @@ Vamos a [settings](#ajuste-de-vs-code), escribimos en la barra de búsqueda **ru
 </tr>
 </table>
 
-Pulsamos **Edit in settings.json**, y añadimos lo siguiente para que aparezca a la anchura de 80 caracteres un delimitador cual ajusta la anchura de texto de forma automática:
+Pulsamos **Edit in settings.json** y añadimos lo siguiente para que aparezca un delimitador a la anchura de 80 caracteres:
 <pre>
   "editor.rulers": [80],
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 80,
 </pre>
-Por ejemplo, settings.json:
+
+Por ejemplo, un `settings.json` completo sería:
 <pre>
 {
   "workbench.colorTheme": "Default Light Modern",
@@ -125,14 +127,15 @@ Por ejemplo, settings.json:
 </pre>
 
 ## Consejo extra: Copilot gratuito para estudiantes
-Al tener cuenta de estudiante, el **Copilot de Github** se puede usar gratuitamente.    
+Si tienes cuenta de estudiante, el **Copilot de GitHub** se puede usar gratuitamente.  
 
-En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** en el apartado de extensiones como previamente se indicó.  
+Para activarlo, instala **GitHub Copilot** y **GitHub Copilot Chat**.  
 
-Para conectar con su cuenta de estudiante, sería ir al apartado de su perfil -> `setting` -> `Emails` y añadir tu cuenta de estudiante
+Después ve a tu perfil -> `Settings` -> `Emails` y añade tu correo de estudiante.
 
 ## ⚠️ Trabajando de forma cooperativo
 > [!WARNING]
-> Si tienes **poco** manejo a la hora de usar GitHub para trabajar con varios usuarios, pensando de cara a una mayor comodidad, se **recomienda separar de forma explícita los ficheros** donde trabajarán cada uno de ellos, y **evitar en la medida de lo posible modificar ficheros no correspondido** de forma accidental.
+> Si tienes **poco** manejo usando GitHub con varios usuarios, para mayor comodidad se recomienda **separar explícitamente los archivos** donde trabajará cada uno y **evitar modificar archivos ajenos** de forma accidental.
+
 
 [**(🔙README)**](/README.es.md#requisito-previo)
