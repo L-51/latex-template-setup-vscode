@@ -27,6 +27,10 @@ Explicación de cómo realizar un `pull request`. También incluye una [práctic
 Tutorial oficial para generar llaves **SSH** como alternativa más cómoda a los tokens.
 > Alternativa útil a los tokens de GitHub.
 
+### [Trabajar con fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+Guía oficial de GitHub sobre cómo crear y gestionar un fork.
+> Muy útil si quieres usar esta plantilla pero mantener tu propia copia personalizada.
+
 ### [Enlaces útiles sobre Git](https://github.com/firstcontributions/first-contributions/blob/main/docs/additional-material/git_workflow_scenarios/Useful-links-for-further-learning.md)
 Recopilación de sitios web interesantes para aprender y profundizar en **Git**.
 > Muy recomendable para avanzar en Git.

@@ -27,6 +27,10 @@ Explanation of how to create a pull request. A very simple practice exercise is 
 GitHub’s own tutorial on generating **SSH keys**, an alternative to tokens.  
 > Useful alternative to GitHub tokens.
 
+### [Working with fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+GitHub official guide about fork
+> Very useful if you want to use this template but keep your own custom copy.
+
 ### [Useful Git Links](https://github.com/firstcontributions/first-contributions/blob/main/docs/additional-material/git_workflow_scenarios/Useful-links-for-further-learning.md)
 A collection of interesting websites to learn and dive deeper into **Git**.  
 > Highly recommended for learning Git.

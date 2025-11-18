@@ -18,6 +18,7 @@ Ideal para **estudiantes, docentes, investigadores o cualquier persona** que qui
   - [Tabla de contenido](#tabla-de-contenido)
   - [Requisito previo](#requisito-previo)
   - [Inicio Rápido](#inicio-rápido)
+  - [Usar esta plantilla en tu propio proyecto](#usar-esta-plantilla-en-tu-propio-proyecto)
   - [Estructura de la plantilla](#estructura-de-la-plantilla)
       - [**bibliography**](#bibliography)
       - [**build**](#build)
@@ -31,6 +32,7 @@ Ideal para **estudiantes, docentes, investigadores o cualquier persona** que qui
   - [Siguientes pasos](#siguientes-pasos)
     - [Material adicionales](#material-adicionales)
 
+[**(🔙README)**](/README.md)
 <!--==Requisito previo======================================================================================-->
 ## Requisito previo
 - Tener instalado **Visual Studio Code**
@@ -50,6 +52,26 @@ Ideal para **estudiantes, docentes, investigadores o cualquier persona** que qui
 6. Editar las diferentes secciones en `template/sections/`
 > Y... ¡Listo! Ya estás trabajando con la plantilla
   
+<!--==Fork a la plantilla===================================================================================-->
+## Usar esta plantilla en tu propio proyecto
+
+<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork the repository" />
+
+Si quieres crear tu **propia plantilla personalizada**, la forma recomendada es:
+
+1. Haz un **Fork** de este repositorio  
+   (`GitHub → botón "Fork" en la parte superior derecha`)
+2. Renombra tu nuevo repositorio si lo deseas
+3. Clónalo en tu equipo:
+   ```bash
+   git clone https://github.com/TU-USUARIO/TU-REPO.git
+   ```
+4. Trabaja sobre tu copia sin afectar al repositorio original
+
+> [!TIP]
+> Esto te permite modificar configuraciones, añadir nuevas secciones,
+> y mantener tu plantilla personal sin perder la plantilla principal
+
 <!--==Estructura de la plantilla============================================================================-->
 ## Estructura de la plantilla
 <pre>

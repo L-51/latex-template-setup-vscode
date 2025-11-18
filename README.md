@@ -35,15 +35,17 @@
 ### English
 ✅ Preconfigured for **LaTeX Workshop**  
 ✅ Works fully **offline (local compilation)**  
-✅ Modular folder structure (config, sections, bibliography, etc.)  
-✅ Step-by-step setup guide  
+✅ **Modular** folder structure (config, sections, bibliography, etc.)  
+✅ Includes a **step-by-step setup** guide  
+✅ **Clean separation** of main files and auxiliary files  
 ✅ Compatible with **Linux (Debian/Ubuntu), Windows and macOS**
 
 ### Español
 ✅ Preconfigurada para **LaTeX Workshop**  
 ✅ Funciona completamente **sin conexión (compilación local)**  
-✅ Estructura de carpetas modular (config, secciones, bibliografía, etc.)  
+✅ Estructura de **carpetas modular** (config, secciones, bibliografía, etc.)  
 ✅ Guía de configuración **paso a paso**  
+✅ Separación limpia entre archivos principales y auxiliares  
 ✅ Compatible con **Linux (Debian/Ubuntu), Windows y macOS**
 
 <!--==Contribution=======================================================================================-->

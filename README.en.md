@@ -16,6 +16,7 @@ Ideal for **students, teachers, researchers, or anyone** who wants to write LaTe
   - [Table of Contents](#table-of-contents)
   - [Prerequisite](#prerequisite)
   - [Quick Start](#quick-start)
+  - [Using this template for your own projects](#using-this-template-for-your-own-projects)
   - [Template Structure](#template-structure)
       - [**bibliography**](#bibliography)
       - [**build**](#build)
@@ -28,7 +29,8 @@ Ideal for **students, teachers, researchers, or anyone** who wants to write LaTe
       - [**.gitignore**](#gitignore)
   - [Next Steps](#next-steps)
     - [Additional Material](#additional-material)
-
+  
+[**(🔙README)**](/README.md)
 <!--==Prerequisite==========================================================================================-->
 ## Prerequisite
 - Have **Visual Studio Code** installed  
@@ -49,6 +51,27 @@ Ideal for **students, teachers, researchers, or anyone** who wants to write LaTe
 6. Edit the different sections in `template/secciones/`
 
 > And… Done! You are now working with the template.
+
+<!--==Fork then template====================================================================================-->
+## Using this template for your own projects
+
+<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork the repository" />
+
+
+If you want to create your **own customized template**, the recommended way is:
+
+1. Create a **Fork** of this repository  
+   (`GitHub → “Fork” button on the top right`)
+2. Rename your new repository if desired
+3. Clone it locally:
+   ```bash
+   git clone https://github.com/YOUR-USER/YOUR-REPO.git
+   ```
+4. Work freely on your copy without affecting the original repository
+
+> [!TIP]
+> This allows you to adjust configurations, add new sections,  
+> and maintain your own template independently from the main one.
 
 <!--==Template structure====================================================================================-->
 ## Template Structure

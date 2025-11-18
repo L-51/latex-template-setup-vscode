@@ -86,3 +86,5 @@ Please respect the following guidelines:
 
 # ❤️ Thank you!
 Every contribution —big or small— helps improve this project.
+
+[**(🔙README)**](/README.md)
