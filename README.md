@@ -13,8 +13,21 @@
 
 > Plantilla modular y tutorial de configuración de LaTeX en VS Code 
 
-<!--==Introduction=======================================================================================-->
-## Introduction/Introducción
+<!--========================================================================================================-->
+## Configuración básica
+- **Instalar Visual Studio Code** <br>
+  Accede a [Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux) y seguir los pasos
+  
+- **Instalar extensiones en VSC** <br>
+  `Ctrl + Shift + X` Accedes a extensiones y seleccionas **LaTex Workshop** de James Yu:
+  <p> 
+    <img src="/.readme/Extension.png" alt="Extension" width="200"/> 
+    <p><em>Incono de extensión</em></p> 
+  </p> 
+  <p> 
+    <img src=".readme/LaTex_Workshop.png" alt="LaTex Workshop" width="600"/> 
+    <p><em>Resultado de la búsqueda LaTex Workshop</em></p> 
+  </p>
 
 **EN**: A tutorial on how to set up and use a ready-to-use **LaTeX environment for Visual Studio Code**, featuring a modular project structure, automatic build configuration, and local compilation support. Perfect for students and professionals working with LaTeX in VS Code.
 
