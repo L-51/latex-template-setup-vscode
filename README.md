@@ -1,4 +1,4 @@
-# Guide: Setting up LaTeX in Visual Studio Code with a modular project template
+# LaTeX Template + VS Code Guide
 
 [![License: MIT](https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law)](./LICENSE)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
