@@ -25,7 +25,7 @@ Para clone escribe lo siguiente:
 ```
 o  
 ```bash
-  git clone git@github.com:L-51/Plantilla-LaTex-para-VSCode.git
+  git clone git@github.com:L-51/latex-template-vscode.git
 ```
 Para navegar y acceder al repositorio clonado:
 ```bash

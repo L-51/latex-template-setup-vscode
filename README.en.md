@@ -33,7 +33,7 @@ Ideal for **students, teachers, researchers, or anyone** who wants to write LaTe
 <!--==Quick Start===========================================================================================-->
 ## Quick Start
 1. **Clone the repository** using `git` ([**Git guide**](/docs/vscode-related-tutorial/git-guide-with-vscode.md)),  
-   or download the zip [**template.zip**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/releases)
+   or download the zip [**template.zip**](https://github.com/L-51/latex-template-vscode/releases)
 2. Open the folder in **Visual Studio Code**
 3. Install the **LaTeX Workshop** extension (if you haven’t already)
 4. Open `main.tex` to locate the main file
@@ -66,23 +66,23 @@ If you want to create your **own customized template**, the recommended way is:
 <!--==Template structure====================================================================================-->
 ## Template Structure
 <pre>
-📁<a href="">template</a>
-├── 📁<a href="">bibliography</a>
+📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template">template</a>
+├── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/bibliography">bibliography</a>
 │   └── 📚ref.bib
-├── 📁<a href="">config</a>
+├── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/config">config</a>
 │   ├── 📄packages.tex
 │   └── ⚙️settings.tex
-├── 📁<a href="">files</a>
+├── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/files">files</a>
 │   └── 📄example.cpp
-├── 📄<a href="">.gitignore</a>
-├── 📁<a href="">images</a>
+├── 📄<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/.gitignore">.gitignore</a>
+├── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/images">images</a>
 │   └── 🖼️Example.png
-├── 📄<a href="">main.tex</a>
-├── 📁<a href="">sections</a>
+├── 📄<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/main.tex">main.tex</a>
+├── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/sections">sections</a>
 │   ├── 📄section_1.tex
 │   ├── 📄section_2.tex
 │   └── 📄section_3.tex
-└── 📁<a href="">title_pages</a>
+└── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/title_pages">title_pages</a>
     └── 📄example_title_page.tex
 </pre>
 

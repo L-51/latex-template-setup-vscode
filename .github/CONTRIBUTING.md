@@ -25,7 +25,7 @@ git clone https://github.com/<your-username>/latex-vscode-template.git
 ```
 or  
 ```bash
-  git clone git@github.com:L-51/Plantilla-LaTex-para-VSCode.git
+  git clone git@github.com:L-51/latex-template-vscode.git
 ```
 Then change into the project directory:
 ```bash
