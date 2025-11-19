@@ -34,7 +34,7 @@ Ideal para **estudiantes, docentes, investigadores o cualquier persona** que qui
 <!--==Inicio Rápido=========================================================================================-->
 ## Inicio Rápido
 1. **Clona el repositorio** con `git`([**guía sobre Git**](/docs/vscode-related-tutorial/translation/git-guide-with-vscode.es.md)), 
-   o descarga el zip [**template.zip**](https://github.com/L-51/latex-template-vscode/releases)
+   o descarga el zip [**template.zip**](https://github.com/L-51/latex-template-setup-vscode/releases)
 2. Abre la carpeta **template** en **Visual Studio Code**
 3. Instala la extensión **LaTeX Workshop** (si no la tienes)
 4. Abre `main.tex` para localizar el main
@@ -65,25 +65,25 @@ Si quieres crear tu **propia plantilla personalizada**, la forma recomendada es:
 <!--==Estructura de la plantilla============================================================================-->
 ## Estructura de la plantilla
 <pre>
-📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template">template</a>
-├── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/bibliography">bibliography</a>
+📁<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template">template</a>
+├── 📁<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/bibliography">bibliography</a>
 │   └── 📚ref.bib
-├── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/config">config</a>
+├── 📁<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/config">config</a>
 │   ├── 📄packages.tex
 │   └── ⚙️settings.tex
-├── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/files">files</a>
+├── 📁<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/files">files</a>
 │   └── 📄example.cpp
-├── 📄<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/.gitignore">.gitignore</a>
-├── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/images">images</a>
+├── 📄<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/.gitignore">.gitignore</a>
+├── 📁<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/images">images</a>
 │   └── 🖼️Example.png
-├── 📄<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/main.tex">main.tex</a>
-├── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/sections">sections</a>
+├── 📄<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/main.tex">main.tex</a>
+├── 📁<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/sections">sections</a>
 │   ├── 📄section_1.tex
 │   ├── 📄section_2.tex
 │   └── 📄section_3.tex
-├── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/title_pages">title_pages</a>
+├── 📁<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/title_pages">title_pages</a>
 │   └── 📄example_title_page.tex
-└── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/.vscode">.vscode</a>
+└── 📁<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/.vscode">.vscode</a>
     └── 📄latex.code-snippets
 </pre>
 
