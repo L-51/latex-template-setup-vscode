@@ -34,20 +34,20 @@ Follow the instructions in the [official tutorial](https://git-scm.com/install/m
 
 ## 2. Clone the repository
 ```
-git clone https://github.com/L-51/latex-template-vscode.git
+git clone https://github.com/L-51/latex-template-setup-vscode.git
 ```
 Or using **SSH**:
 ```
-git clone git@github.com:L-51/latex-template-vscode.git
+git clone git@github.com:L-51/latex-template-setup-vscode.git
 ```
-Or download the zip [**template.zip**](https://github.com/L-51/latex-template-vscode/releases) from the **Releases** page and extract it.
+Or download the zip [**template.zip**](https://github.com/L-51/latex-template-setup-vscode/releases) from the **Releases** page and extract it.
 
 ## 3. Open the folder
 Using _File_ → **Open Folder** in VS Code,  
 or right-click the **template folder** → _Open with…_ → select **VS Code**,  
 or via terminal:
 ```
-cd latex-template-vscode
+cd latex-template-setup-vscode
 code template
 ```
 
