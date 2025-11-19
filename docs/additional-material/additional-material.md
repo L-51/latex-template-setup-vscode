@@ -1,4 +1,4 @@
-# Additional Information
+# Additional Material
 Here are some useful links.
 
 ## LaTeX Documentation and Tutorials
