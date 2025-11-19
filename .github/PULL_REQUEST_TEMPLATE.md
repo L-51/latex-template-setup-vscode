@@ -1,12 +1,3 @@
----
-name: Pull Request
-about: Guide contributors to submit changes properly
-title: "[PR] "
-labels: enhancement
-assignees: ""
-
----
-
 ## Description
 Please describe the changes you made. What is the goal of this PR?
 
