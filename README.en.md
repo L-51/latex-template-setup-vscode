@@ -66,25 +66,25 @@ If you want to create your **own customized template**, the recommended way is:
 <!--==Template structure====================================================================================-->
 ## Template Structure
 <pre>
-📁<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template">template</a>
-├── 📁<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/bibliography">bibliography</a>
+📁template
+├── 📁bibliography
 │   └── 📚ref.bib
-├── 📁<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/config">config</a>
+├── 📁config
 │   ├── 📄packages.tex
 │   └── ⚙️settings.tex
-├── 📁<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/files">files</a>
+├── 📁files
 │   └── 📄example.cpp
-├── 📄<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/.gitignore">.gitignore</a>
-├── 📁<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/images">images</a>
+├── 📄.gitignore
+├── 📁images
 │   └── 🖼️Example.png
-├── 📄<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/main.tex">main.tex</a>
-├── 📁<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/sections">sections</a>
+├── 📄main.tex
+├── 📁sections
 │   ├── 📄section_1.tex
 │   ├── 📄section_2.tex
 │   └── 📄section_3.tex
-├── 📁<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/title_pages">title_pages</a>
+├── 📁title_pages
 │   └── 📄example_title_page.tex
-└── 📁<a href="https://github.com/L-51/latex-template-setup-vscode/tree/main/template/.vscode">.vscode</a>
+└── 📁.vscode
     └── 📄latex.code-snippets
 </pre>
 
