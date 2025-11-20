@@ -74,7 +74,7 @@ Ve al repositorio bifurcado de GitHub, y pulsa el botón de **"Compare & pull re
 Añade en la descripción de `pull request` lo siguiente:
 - Los nuevos cambios realizados
 - La utilidad de los cambios
-- Problemas relacionados(Si es aplicable)
+- Problemas relacionados(Si es aplicable)  
 La contribución será revisado lo más pronto posible
 
 # Estilo del código y reglas del proyecto
