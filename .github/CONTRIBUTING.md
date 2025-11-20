@@ -74,7 +74,7 @@ Go to your fork on GitHub and click “Compare & pull request”.
 In your PR description, include:
 - What you changed
 - Why the change is useful
-- Related issues (if applicable)
+- Related issues (if applicable)  
 Your contribution will be reviewed as soon as possible
 
 # Code Style and Project Rules
