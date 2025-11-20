@@ -1,5 +1,5 @@
 <h1 align="center">
-  LaTeX Template + VS Code Guide
+  LaTeX Template for VS Code + Git : A Free Local Alternative to Overleaf
 </h1> 
 
 <div align="center">
