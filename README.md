@@ -22,6 +22,11 @@
   Plantilla modular y tutorial de configuración de LaTeX en VS Code 
 </p>
 
+<div align="center">
+  
+[![Star History Chart](https://app.repohistory.com/api/svg?repo=L-51/latex-template-setup-vscode&type=Date&background=0D1117&color=f86262)](https://app.repohistory.com/star-history)
+</div>
+
 <!--==Introduction=======================================================================================-->
 ## Introduction/Introducción
 
