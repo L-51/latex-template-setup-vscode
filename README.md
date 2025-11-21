@@ -70,6 +70,7 @@ Por favor, lean las [**pautas de contribución**](/.github/CONTRIBUTING.es.md) a
 > If you feel this repository useful, don't forget to leave a ⭐!  
 > Si te resulta útil este repositorio, ¡no olvides dejar una ⭐!
 
+<!--==Star History========================================================================================-->
 ## Star History
 <div align="center">
   <picture>
