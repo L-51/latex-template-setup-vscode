@@ -1,7 +1,24 @@
-<!-- TODO: A banner image -->
+<div align="center">  
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/readme/dark_front_page.png" >
+  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/readme/light_front_page.png">
+  <img src="./.github/assets/readme/light_front_page.png" alt="Front Page post">
+</picture>
+  
+</div>
+
 <h1 align="center">
-  LaTeX Template + VS Code Guide
+  Modular LaTeX Workspace for VS Code
 </h1> 
+
+<p align="center">
+  <em>A ready-to-use LaTeX template and setup tutorial for offline compilation on Linux, Windows & macOS</em>  
+</p>
+
+<p align="center">
+  <em>Plantilla lista para usar, con tutorial paso a paso para compilación local en Linux, Windows y macOS</em>
+</p>
+
 
 <div align="center">
   
@@ -14,13 +31,9 @@
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](README.en.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
 
-</div>
+[![GitHub Stars](https://img.shields.io/badge/⭐%20Give%20a%20Star-Support%20the%20project-orange?style=for-the-badge)](https://github.com/L-51/latex-template-setup-vscode/stargazers)
 
-<p align="center"> 
-  LaTeX modular template and setup tutorial for Visual Studio Code 
-  <br />
-  Plantilla modular y tutorial de configuración de LaTeX en VS Code 
-</p>
+</div>
 
 <!--==Introduction=======================================================================================-->
 ## Introduction/Introducción
@@ -72,7 +85,7 @@ Por favor, lean las [**pautas de contribución**](/.github/CONTRIBUTING.es.md) a
 
 <!--==Star History========================================================================================-->
 ## Star History
-<div align="center">
+<div align="center" href="https://www.star-history.com/#L-51/latex-template-setup-vscode&type=date&legend=top-left">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://app.repohistory.com/api/svg?repo=L-51/latex-template-setup-vscode&type=Date&background=000000&color=F54927" >
     <source media="(prefers-color-scheme: light)" srcset="https://app.repohistory.com/api/svg?repo=L-51/latex-template-setup-vscode&type=Date&background=ffffff&color=0969DA">
