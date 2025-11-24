@@ -1,8 +1,8 @@
 <div align="center">  
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/readme/dark_front_page.png" >
-  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/readme/light_front_page.png">
-  <img src="./.github/assets/readme/light_front_page.png" alt="Front Page post">
+  <source media="(prefers-color-scheme: dark)" srcset="/.github/assets/readme/front_page/dark_front_page.png" >
+  <source media="(prefers-color-scheme: light)" srcset="/.github/assets/readme//front_page/light_front_page.png">
+  <img src="/.github/assets/readme/light_front_page.png" alt="Front Page post">
 </picture>
   
 </div>
