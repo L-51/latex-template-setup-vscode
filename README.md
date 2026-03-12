@@ -6,10 +6,6 @@
   
 </div>
 
-<h1 align="center">
-  Modular LaTeX Workspace for VS Code
-</h1> 
-
 <p align="center">
   <em>A ready-to-use LaTeX template and setup tutorial for offline compilation on Linux, Windows & macOS</em>  
 </p>
