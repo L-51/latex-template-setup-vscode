@@ -80,6 +80,7 @@ Please read the [**contribution guidelines**](/.github/CONTRIBUTING.md) before s
 Por favor, lean las [**pautas de contribución**](/.github/CONTRIBUTING.es.md) antes de enviar un pull request.
 
 <!--==Star History========================================================================================-->
+<!--
 ## Star History
 <a align="center" href="https://www.star-history.com/#L-51/latex-template-setup-vscode&type=date&legend=top-left">
   <picture>
@@ -88,6 +89,7 @@ Por favor, lean las [**pautas de contribución**](/.github/CONTRIBUTING.es.md) a
     <img src="https://app.repohistory.com/api/svg?repo=L-51/latex-template-setup-vscode&type=Date&background=0D1117&color=f86262" alt="Star History">
   </picture>
 </a>
+-->
 
 <!--==License============================================================================================-->
 ## License
