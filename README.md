@@ -1,6 +1,6 @@
 <div align="center">  
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/.github/assets/readme/front_page/dark_front_page.png" >
+  <source media="(prefers-color-scheme: dark)" srcset="/.github/assets/readme/front_page/dark_front_page.svg" >
   <img src="/.github/assets/readme/front_page/light_front_page.svg" alt="Front Page post">
 </picture>
   
