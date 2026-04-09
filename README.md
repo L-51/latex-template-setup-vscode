@@ -1,12 +1,7 @@
 <div align="center">  
 <picture>
-<<<<<<< HEAD
-  <source media="(prefers-color-scheme: dark)" srcset="/.github/assets/readme/front_page/dark_front_page.png" >
-  <img src="/.github/assets/readme/light_front_page.png" alt="Front Page post">
-=======
   <source media="(prefers-color-scheme: dark)" srcset="/.github/assets/readme/front_page/dark_front_page.svg" >
   <img src="/.github/assets/readme/front_page/light_front_page.svg" alt="Front Page post">
->>>>>>> 469db510a05c471c65849e5a547a5f72304cde6d
 </picture>
   
 </div>
