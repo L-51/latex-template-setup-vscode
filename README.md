@@ -1,7 +1,12 @@
 <div align="center">  
 <picture>
+<<<<<<< HEAD
+  <source media="(prefers-color-scheme: dark)" srcset="/.github/assets/readme/front_page/dark_front_page.png" >
+  <img src="/.github/assets/readme/light_front_page.png" alt="Front Page post">
+=======
   <source media="(prefers-color-scheme: dark)" srcset="/.github/assets/readme/front_page/dark_front_page.svg" >
   <img src="/.github/assets/readme/front_page/light_front_page.svg" alt="Front Page post">
+>>>>>>> 469db510a05c471c65849e5a547a5f72304cde6d
 </picture>
   
 </div>
@@ -23,8 +28,8 @@
 ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=F0F0F0)
 ![VSCode](https://custom-icon-badges.demolab.com/badge/vscode-F3FFFF?logo=vscode)
 ![LaTeX](https://img.shields.io/badge/LaTeX-00A0A0?logo=latex&logoColor=fff)
-[![en](https://img.shields.io/badge/lang-en-blue.svg)](README.en.md)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
+[![en](https://img.shields.io/badge/lang-en-blue.svg)](./docs/README.en.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](./docs/README.es.md)
 
 [![GitHub Stars](https://img.shields.io/badge/⭐%20Give%20a%20Star-Support%20the%20project-orange?style=for-the-badge)](https://github.com/L-51/latex-template-setup-vscode/stargazers)
 
