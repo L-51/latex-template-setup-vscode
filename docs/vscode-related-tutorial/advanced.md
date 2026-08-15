@@ -112,4 +112,4 @@ Example:
 - `$i`: placeholder position for the cursor (moving with Tab)
 - `"description"`: optional description  
 
-[**(🔙README)**](/README.en.md#table-of-contents)
+[**(🔙README)**](/docs/README.en.md#table-of-contents)
