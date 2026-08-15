@@ -138,4 +138,4 @@ To link your student account, go to your GitHub profile → `Settings` → `Emai
 > If you are inexperienced with GitHub when working with multiple contributors, it is strongly recommended to **explicitly separate files** each person will work on, and **avoid modifying files assigned to others** to prevent accidental conflicts.
 
 
-[**(🔙README)**](/README.en.md#prerequisite)
+[**(🔙README)**](/docs/README.en.md#prerequisite)
