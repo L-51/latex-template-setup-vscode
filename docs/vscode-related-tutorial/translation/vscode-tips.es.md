@@ -138,4 +138,4 @@ Después ve a tu perfil -> `Settings` -> `Emails` y añade tu correo de estudian
 > Si tienes **poco** manejo usando GitHub con varios usuarios, para mayor comodidad se recomienda **separar explícitamente los archivos** donde trabajará cada uno y **evitar modificar archivos ajenos** de forma accidental.
 
 
-[**(🔙README)**](/README.es.md#requisito-previo)
+[**(🔙README)**](/docs/README.es.md#requisito-previo)
