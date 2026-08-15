@@ -64,4 +64,4 @@ Aunque aún puedes realizar todas estas acciones desde terminal, VS Code ofrece 
 
 <br>
 
-[**(🔙README)**](/README.es.md#tabla-de-contenido)
+[**(🔙README)**](/docs/README.es.md#tabla-de-contenido)
