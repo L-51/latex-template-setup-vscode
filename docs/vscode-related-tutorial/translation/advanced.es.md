@@ -111,4 +111,4 @@ Ejemplo de snippet:
 - `$i`: posición del cursor tras insertar (se avanza con Tab)  
 - `"description"` descripción opcional
 
-[**(🔙README)**](/README.es.md#tabla-de-contenido)
+[**(🔙README)**](/docs/README.es.md#tabla-de-contenido)
